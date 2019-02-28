@@ -1,13 +1,13 @@
 # ZFireAlarm
 Sistema de sensores inalámbricos a ser distribuidos sobre el edificio de la institución educativa para lograr el objetivo inicial de red inalámbrica para sirenas de incendio.
 
-
+<img src='https://raw.githubusercontent.com/its-villada/ZFireAlarm/master/img/systemOverview.PNG' width='794' alt='System  screenshot'>
 
 ## Objetivos
-Que el alumno se familiarice con las capacidades de los equipos XBee.
-Que sea capaz de diseñar una parte de un sistema real, que luego se montará en la práctica.
-Definir un presupuesto real para implementar un sistema completo y revisar posibilidades de implementación en base a disponibilidad en el mercado.
-Adquirir nociones generales sobre el hardware y software a utilizar en aplicaciones reales, a través del desarrollo de un ejercicio práctico aplicado a sensores y actuadores remotos. 
+- Que el alumno se familiarice con las capacidades de los equipos XBee.
+- Que sea capaz de diseñar una parte de un sistema real, que luego se montará en la práctica.
+- Definir un presupuesto real para implementar un sistema completo y revisar posibilidades de implementación en base a disponibilidad en el mercado.
+- Adquirir nociones generales sobre el hardware y software a utilizar en aplicaciones reales, a través del desarrollo de un ejercicio práctico aplicado a sensores y actuadores remotos. 
 
 ## Software y aplicaciones
 - Python: https://www.python.org/
@@ -32,7 +32,7 @@ Las características son:
 
 Las características de los nodos son:
 - Bateria 12V 7 A/H , las mismas que se utilizan en los sistemas de alarmas hogareño.
--Led indicador estado de batería
+- Led indicador estado de batería
 - Conector serie (idéntico al utilizado en las placas de evaluacion XBoard)
 - Salida para alimentar una sirena 12V/24V 2A.
 - Conectividad wireless brindada por módulo XBee pro series 2.
