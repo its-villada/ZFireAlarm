@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Xbee-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -31,7 +31,7 @@ F 8 "Unavailable" H 5650 3900 50  0001 L BNN "Field8"
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR03
+L Xbee-rescue:GNDREF-power #PWR03
 U 1 1 5C05451D
 P 1400 1500
 F 0 "#PWR03" H 1400 1250 50  0001 C CNN
@@ -42,18 +42,18 @@ F 3 "" H 1400 1500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J1
+L Xbee-rescue:Screw_Terminal_01x02-Connector J1
 U 1 1 5C0545C1
 P 1200 1500
 F 0 "J1" H 1120 1175 50  0000 C CNN
-F 1 "Entrada" H 1120 1266 50  0000 C CNN
+F 1 "Alimentación" H 1120 1266 50  0000 C CNN
 F 2 "" H 1200 1500 50  0001 C CNN
 F 3 "~" H 1200 1500 50  0001 C CNN
 	1    1200 1500
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+12V #PWR05
+L Xbee-rescue:+12V-power #PWR05
 U 1 1 5C0546B0
 P 1550 1400
 F 0 "#PWR05" H 1550 1250 50  0001 C CNN
@@ -66,7 +66,7 @@ $EndComp
 Wire Wire Line
 	1550 1400 1400 1400
 $Comp
-L Regulator_Linear:LM317_3PinPackage U1
+L Xbee-rescue:LM317_3PinPackage-Regulator_Linear U1
 U 1 1 5C054755
 P 2800 1300
 F 0 "U1" H 2800 1542 50  0000 C CNN
@@ -77,7 +77,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 2800 1300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L Xbee-rescue:R-Device R2
 U 1 1 5C054800
 P 3250 1450
 F 0 "R2" H 3320 1496 50  0000 L CNN
@@ -88,7 +88,7 @@ F 3 "~" H 3250 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R3
+L Xbee-rescue:R-Device R3
 U 1 1 5C054888
 P 3250 1750
 F 0 "R3" H 3320 1796 50  0000 L CNN
@@ -99,7 +99,7 @@ F 3 "~" H 3250 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR08
+L Xbee-rescue:GNDREF-power #PWR08
 U 1 1 5C0548D0
 P 3250 1900
 F 0 "#PWR08" H 3250 1650 50  0001 C CNN
@@ -115,7 +115,7 @@ Connection ~ 3250 1600
 Wire Wire Line
 	3100 1300 3250 1300
 $Comp
-L power:+12V #PWR06
+L Xbee-rescue:+12V-power #PWR06
 U 1 1 5C054989
 P 2300 1300
 F 0 "#PWR06" H 2300 1150 50  0001 C CNN
@@ -128,7 +128,7 @@ $EndComp
 Wire Wire Line
 	2300 1300 2350 1300
 $Comp
-L Device:CP1 C1
+L Xbee-rescue:CP1-Device C1
 U 1 1 5C054A43
 P 2350 1600
 F 0 "C1" H 2465 1646 50  0000 L CNN
@@ -139,7 +139,7 @@ F 3 "~" H 2350 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP1 C2
+L Xbee-rescue:CP1-Device C2
 U 1 1 5C054AD3
 P 3700 1600
 F 0 "C2" H 3815 1646 50  0000 L CNN
@@ -150,7 +150,7 @@ F 3 "~" H 3700 1600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR07
+L Xbee-rescue:GNDREF-power #PWR07
 U 1 1 5C054B4C
 P 2350 1900
 F 0 "#PWR07" H 2350 1650 50  0001 C CNN
@@ -161,7 +161,7 @@ F 3 "" H 2350 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR010
+L Xbee-rescue:GNDREF-power #PWR010
 U 1 1 5C054B65
 P 3700 1950
 F 0 "#PWR010" H 3700 1700 50  0001 C CNN
@@ -186,7 +186,7 @@ Wire Wire Line
 	3700 1300 3250 1300
 Connection ~ 3250 1300
 $Comp
-L Diode:1N4007 D2
+L Xbee-rescue:1N4007-Diode D2
 U 1 1 5C054DA4
 P 2800 900
 F 0 "D2" H 2800 1116 50  0000 C CNN
@@ -208,7 +208,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 900  3250 1300
 $Comp
-L Switch:SW_Push_Dual SW1
+L Xbee-rescue:SW_Push_Dual-Switch SW1
 U 1 1 5C05513C
 P 1550 3300
 F 0 "SW1" H 1550 3585 50  0000 C CNN
@@ -219,7 +219,7 @@ F 3 "" H 1550 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_Push_Dual SW2
+L Xbee-rescue:SW_Push_Dual-Switch SW2
 U 1 1 5C0551E7
 P 1550 4000
 F 0 "SW2" H 1550 4285 50  0000 C CNN
@@ -230,7 +230,7 @@ F 3 "" H 1550 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR012
+L Xbee-rescue:GNDREF-power #PWR012
 U 1 1 5C0557AA
 P 6750 4700
 F 0 "#PWR012" H 6750 4450 50  0001 C CNN
@@ -241,7 +241,7 @@ F 3 "" H 6750 4700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR09
+L Xbee-rescue:+3.3V-power #PWR09
 U 1 1 5C0558A9
 P 3700 1300
 F 0 "#PWR09" H 3700 1150 50  0001 C CNN
@@ -253,7 +253,7 @@ F 3 "" H 3700 1300 50  0001 C CNN
 $EndComp
 Connection ~ 3700 1300
 $Comp
-L power:+3.3V #PWR011
+L Xbee-rescue:+3.3V-power #PWR011
 U 1 1 5C055957
 P 6750 3100
 F 0 "#PWR011" H 6750 2950 50  0001 C CNN
@@ -269,7 +269,7 @@ RST
 Text Label 1850 3400 0    50   ~ 0
 RST
 $Comp
-L power:GNDREF #PWR01
+L Xbee-rescue:GNDREF-power #PWR01
 U 1 1 5C055BB2
 P 1200 3400
 F 0 "#PWR01" H 1200 3150 50  0001 C CNN
@@ -316,7 +316,7 @@ Connection ~ 1350 4100
 Wire Wire Line
 	1350 4100 1350 4200
 $Comp
-L power:GNDREF #PWR02
+L Xbee-rescue:GNDREF-power #PWR02
 U 1 1 5C1A5AE8
 P 1200 4100
 F 0 "#PWR02" H 1200 3850 50  0001 C CNN
@@ -331,7 +331,7 @@ Assoc.
 Text Label 950  5750 2    50   ~ 0
 Assoc.
 $Comp
-L Device:R R1
+L Xbee-rescue:R-Device R1
 U 1 1 5C1A5BA0
 P 1700 5850
 F 0 "R1" H 1770 5896 50  0000 L CNN
@@ -342,7 +342,7 @@ F 3 "~" H 1700 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_ALT D1
+L Xbee-rescue:LED_ALT-Device D1
 U 1 1 5C1A5C83
 P 1700 6150
 F 0 "D1" V 1738 6032 50  0000 R CNN
@@ -353,7 +353,7 @@ F 3 "~" H 1700 6150 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L power:GNDREF #PWR04
+L Xbee-rescue:GNDREF-power #PWR04
 U 1 1 5C1A5D78
 P 1700 6400
 F 0 "#PWR04" H 1700 6150 50  0001 C CNN
@@ -364,7 +364,7 @@ F 3 "" H 1700 6400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x05_Counter_Clockwise J5
+L Xbee-rescue:Conn_02x05_Counter_Clockwise-Connector_Generic J5
 U 1 1 5C1A76BB
 P 5750 1450
 F 0 "J5" H 5800 1867 50  0000 C CNN
@@ -375,7 +375,7 @@ F 3 "~" H 5750 1450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR017
+L Xbee-rescue:GNDREF-power #PWR017
 U 1 1 5C1A7A13
 P 5400 1650
 F 0 "#PWR017" H 5400 1400 50  0001 C CNN
@@ -390,7 +390,7 @@ Wire Wire Line
 NoConn ~ 6050 1650
 NoConn ~ 5550 1250
 $Comp
-L power:+3.3V #PWR018
+L Xbee-rescue:+3.3V-power #PWR018
 U 1 1 5C1A891D
 P 6200 1250
 F 0 "#PWR018" H 6200 1100 50  0001 C CNN
@@ -425,7 +425,7 @@ CTS
 Text Label 4550 3800 2    50   ~ 0
 RSSI
 $Comp
-L Jumper:Jumper_3_Open JP1
+L Xbee-rescue:Jumper_3_Open-Jumper JP1
 U 1 1 5C1A987B
 P 950 5500
 F 0 "JP1" H 1050 5850 50  0000 C CNN
@@ -436,7 +436,7 @@ F 3 "~" H 950 5500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_BJT:BC338 Q1
+L Xbee-rescue:BC338-Transistor_BJT Q1
 U 1 1 5C1A9F9C
 P 1600 5500
 F 0 "Q1" H 1791 5546 50  0000 L CNN
@@ -449,7 +449,7 @@ $EndComp
 Text Label 950  5250 2    50   ~ 0
 RSSI
 $Comp
-L Device:R R4
+L Xbee-rescue:R-Device R4
 U 1 1 5C1AB260
 P 1250 5500
 F 0 "R4" V 1043 5500 50  0000 C CNN
@@ -460,7 +460,7 @@ F 3 "~" H 1250 5500 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3.3V #PWR013
+L Xbee-rescue:+3.3V-power #PWR013
 U 1 1 5C1AB37D
 P 1700 5300
 F 0 "#PWR013" H 1700 5150 50  0001 C CNN
@@ -473,7 +473,7 @@ $EndComp
 Wire Wire Line
 	1700 6300 1700 6400
 $Comp
-L Connector:Screw_Terminal_01x02 J6
+L Xbee-rescue:Screw_Terminal_01x02-Connector J6
 U 1 1 5C1ACBCC
 P 9150 4300
 F 0 "J6" H 9229 4292 50  0000 L CNN
@@ -484,7 +484,7 @@ F 3 "~" H 9150 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:Screw_Terminal_01x02 J7
+L Xbee-rescue:Screw_Terminal_01x02-Connector J7
 U 1 1 5C1ACCE8
 P 10100 5450
 F 0 "J7" H 10180 5442 50  0000 L CNN
@@ -495,7 +495,7 @@ F 3 "~" H 10100 5450 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Amplifier_Operational:LM358 U3
+L Xbee-rescue:LM358-Amplifier_Operational U3
 U 1 1 5C1ADCAC
 P 9250 1200
 F 0 "U3" H 9250 1567 50  0000 C CNN
@@ -506,7 +506,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 9250 1200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LM358 U3
+L Xbee-rescue:LM358-Amplifier_Operational U3
 U 2 1 5C1ADD3E
 P 9250 2000
 F 0 "U3" H 9250 2367 50  0000 C CNN
@@ -517,7 +517,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 9250 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Amplifier_Operational:LM358 U3
+L Xbee-rescue:LM358-Amplifier_Operational U3
 U 3 1 5C1ADDD5
 P 7650 1350
 F 0 "U3" H 7608 1396 50  0000 L CNN
@@ -528,7 +528,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 7650 1350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR019
+L Xbee-rescue:+12V-power #PWR019
 U 1 1 5C1ADECB
 P 7550 1050
 F 0 "#PWR019" H 7550 900 50  0001 C CNN
@@ -539,7 +539,7 @@ F 3 "" H 7550 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR020
+L Xbee-rescue:GNDREF-power #PWR020
 U 1 1 5C1AE083
 P 7550 1650
 F 0 "#PWR020" H 7550 1400 50  0001 C CNN
@@ -550,7 +550,7 @@ F 3 "" H 7550 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Zener_ALT D3
+L Xbee-rescue:D_Zener_ALT-Device D3
 U 1 1 5C1A74DB
 P 8150 1800
 F 0 "D3" V 8200 1600 50  0000 L CNN
@@ -561,7 +561,7 @@ F 3 "~" H 8150 1800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_POT RV1
+L Xbee-rescue:R_POT-Device RV1
 U 1 1 5C1A82CD
 P 8550 1100
 F 0 "RV1" H 8450 1250 50  0000 R CNN
@@ -572,7 +572,7 @@ F 3 "~" H 8550 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_POT RV2
+L Xbee-rescue:R_POT-Device RV2
 U 1 1 5C1A8357
 P 8550 2100
 F 0 "RV2" H 8500 2050 50  0000 R CNN
@@ -587,7 +587,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 2100 8950 2100
 $Comp
-L Device:R R7
+L Xbee-rescue:R-Device R7
 U 1 1 5C1A9BDF
 P 8150 1500
 F 0 "R7" H 8080 1454 50  0000 R CNN
@@ -598,7 +598,7 @@ F 3 "~" H 8150 1500 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:+12V #PWR023
+L Xbee-rescue:+12V-power #PWR023
 U 1 1 5C1A9FAF
 P 8150 1350
 F 0 "#PWR023" H 8150 1200 50  0001 C CNN
@@ -611,7 +611,7 @@ $EndComp
 Wire Wire Line
 	8950 1300 8950 1650
 $Comp
-L power:GNDREF #PWR024
+L Xbee-rescue:GNDREF-power #PWR024
 U 1 1 5C1AB0B5
 P 8150 1950
 F 0 "#PWR024" H 8150 1700 50  0001 C CNN
@@ -628,7 +628,7 @@ Connection ~ 8950 1650
 Wire Wire Line
 	8950 1650 8950 1900
 $Comp
-L power:+12V #PWR026
+L Xbee-rescue:+12V-power #PWR026
 U 1 1 5C1AB703
 P 8550 950
 F 0 "#PWR026" H 8550 800 50  0001 C CNN
@@ -639,7 +639,7 @@ F 3 "" H 8550 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR027
+L Xbee-rescue:GNDREF-power #PWR027
 U 1 1 5C1AB747
 P 8550 1250
 F 0 "#PWR027" H 8550 1000 50  0001 C CNN
@@ -650,7 +650,7 @@ F 3 "" H 8550 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR028
+L Xbee-rescue:+12V-power #PWR028
 U 1 1 5C1AB784
 P 8550 1950
 F 0 "#PWR028" H 8550 1800 50  0001 C CNN
@@ -661,7 +661,7 @@ F 3 "" H 8550 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR029
+L Xbee-rescue:GNDREF-power #PWR029
 U 1 1 5C1AB7C1
 P 8550 2250
 F 0 "#PWR029" H 8550 2000 50  0001 C CNN
@@ -672,7 +672,7 @@ F 3 "" H 8550 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R11
+L Xbee-rescue:R-Device R11
 U 1 1 5C1ABB11
 P 9900 1200
 F 0 "R11" V 9693 1200 50  0000 C CNN
@@ -683,7 +683,7 @@ F 3 "~" H 9900 1200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R12
+L Xbee-rescue:R-Device R12
 U 1 1 5C1ABC44
 P 9900 2000
 F 0 "R12" V 9693 2000 50  0000 C CNN
@@ -694,7 +694,7 @@ F 3 "~" H 9900 2000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:LED_ALT D5
+L Xbee-rescue:LED_ALT-Device D5
 U 1 1 5C1ABD1F
 P 10150 1350
 F 0 "D5" V 10188 1232 50  0000 R CNN
@@ -705,7 +705,7 @@ F 3 "~" H 10150 1350 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:LED_ALT D6
+L Xbee-rescue:LED_ALT-Device D6
 U 1 1 5C1ABED0
 P 10150 2150
 F 0 "D6" V 10188 2033 50  0000 R CNN
@@ -720,7 +720,7 @@ Wire Wire Line
 Wire Wire Line
 	10050 1200 10150 1200
 $Comp
-L power:GNDREF #PWR034
+L Xbee-rescue:GNDREF-power #PWR034
 U 1 1 5C1ACBFD
 P 10150 1600
 F 0 "#PWR034" H 10150 1350 50  0001 C CNN
@@ -737,7 +737,7 @@ Wire Wire Line
 Wire Wire Line
 	9750 2000 9650 2000
 $Comp
-L power:GNDREF #PWR035
+L Xbee-rescue:GNDREF-power #PWR035
 U 1 1 5C1AE001
 P 10150 2400
 F 0 "#PWR035" H 10150 2150 50  0001 C CNN
@@ -754,7 +754,7 @@ DIO4
 Text Label 8850 3200 0    50   ~ 0
 DIO4
 $Comp
-L Jumper:Jumper_2_Open JP4
+L Xbee-rescue:Jumper_2_Open-Jumper JP4
 U 1 1 5C1B13A4
 P 8650 3200
 F 0 "JP4" H 8650 3435 50  0000 C CNN
@@ -765,7 +765,7 @@ F 3 "~" H 8650 3200 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:BC338 Q2
+L Xbee-rescue:BC338-Transistor_BJT Q2
 U 1 1 5C1B14D4
 P 8000 3450
 F 0 "Q2" H 8191 3496 50  0000 L CNN
@@ -776,7 +776,7 @@ F 3 "http://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337" H 8000 3450 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR021
+L Xbee-rescue:+3.3V-power #PWR021
 U 1 1 5C1B1DFA
 P 8100 2800
 F 0 "#PWR021" H 8100 2650 50  0001 C CNN
@@ -787,7 +787,7 @@ F 3 "" H 8100 2800 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Device:R R6
+L Xbee-rescue:R-Device R6
 U 1 1 5C1B1F86
 P 8100 3000
 F 0 "R6" H 8170 3046 50  0000 L CNN
@@ -807,7 +807,7 @@ Connection ~ 8100 3200
 Wire Wire Line
 	8100 3200 8100 3250
 $Comp
-L power:GNDREF #PWR022
+L Xbee-rescue:GNDREF-power #PWR022
 U 1 1 5C1B4A73
 P 8100 3750
 F 0 "#PWR022" H 8100 3500 50  0001 C CNN
@@ -820,7 +820,7 @@ $EndComp
 Wire Wire Line
 	8100 3750 8100 3650
 $Comp
-L Device:R R5
+L Xbee-rescue:R-Device R5
 U 1 1 5C1B535E
 P 7650 3450
 F 0 "R5" V 7443 3450 50  0000 C CNN
@@ -842,7 +842,7 @@ EstadoBatería
 Wire Wire Line
 	7400 3450 7500 3450
 $Comp
-L Connector_Generic:Conn_01x10 J3
+L Xbee-rescue:Conn_01x10-Connector_Generic J3
 U 1 1 5C1B8F13
 P 4850 5700
 F 0 "J3" H 4700 6350 50  0000 L CNN
@@ -853,7 +853,7 @@ F 3 "~" H 4850 5700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x10 J4
+L Xbee-rescue:Conn_01x10-Connector_Generic J4
 U 1 1 5C1B916F
 P 5600 5700
 F 0 "J4" H 5520 6317 50  0000 C CNN
@@ -864,7 +864,7 @@ F 3 "~" H 5600 5700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR015
+L Xbee-rescue:+3.3V-power #PWR015
 U 1 1 5C1BA6B7
 P 4450 5300
 F 0 "#PWR015" H 4450 5150 50  0001 C CNN
@@ -886,7 +886,7 @@ Text Label 4650 5700 2    50   ~ 0
 RST
 NoConn ~ 4650 6000
 $Comp
-L power:GNDREF #PWR016
+L Xbee-rescue:GNDREF-power #PWR016
 U 1 1 5C1BD34E
 P 4450 6200
 F 0 "#PWR016" H 4450 5950 50  0001 C CNN
@@ -909,7 +909,7 @@ RTS
 Text Label 5800 5300 0    50   ~ 0
 Comm.
 $Comp
-L Device:R R10
+L Xbee-rescue:R-Device R10
 U 1 1 5C1C2E7B
 P 8850 4150
 F 0 "R10" H 8920 4196 50  0000 L CNN
@@ -920,7 +920,7 @@ F 3 "~" H 8850 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR030
+L Xbee-rescue:+3.3V-power #PWR030
 U 1 1 5C1C3018
 P 8850 4000
 F 0 "#PWR030" H 8850 3850 50  0001 C CNN
@@ -931,7 +931,7 @@ F 3 "" H 8850 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR031
+L Xbee-rescue:GNDREF-power #PWR031
 U 1 1 5C1C50B1
 P 8850 4400
 F 0 "#PWR031" H 8850 4150 50  0001 C CNN
@@ -950,7 +950,7 @@ DIO2
 Text Label 8650 4850 0    50   ~ 0
 DIO2
 $Comp
-L Jumper:Jumper_3_Open JP3
+L Xbee-rescue:Jumper_3_Open-Jumper JP3
 U 1 1 5C1C9030
 P 8500 4850
 F 0 "JP3" H 8500 5074 50  0000 C CNN
@@ -961,7 +961,7 @@ F 3 "~" H 8500 4850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Transistor_BJT:BC338 Q3
+L Xbee-rescue:BC338-Transistor_BJT Q3
 U 1 1 5C1D025D
 P 9000 5350
 F 0 "Q3" H 9191 5396 50  0000 L CNN
@@ -972,7 +972,7 @@ F 3 "http://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337" H 9000 5350 5
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R9
+L Xbee-rescue:R-Device R9
 U 1 1 5C1D0264
 P 8650 5350
 F 0 "R9" V 8443 5350 50  0000 C CNN
@@ -990,7 +990,7 @@ Connection ~ 8850 4300
 Wire Wire Line
 	8500 5100 8500 5350
 $Comp
-L power:GNDREF #PWR032
+L Xbee-rescue:GNDREF-power #PWR032
 U 1 1 5C1D5BB2
 P 9100 5600
 F 0 "#PWR032" H 9100 5350 50  0001 C CNN
@@ -1001,7 +1001,7 @@ F 3 "" H 9100 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+12V #PWR033
+L Xbee-rescue:+12V-power #PWR033
 U 1 1 5C1D5C7C
 P 10100 4400
 F 0 "#PWR033" H 10100 4250 50  0001 C CNN
@@ -1012,11 +1012,11 @@ F 3 "" H 10100 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Relay:DIPxx-1Cxx-51x K1
+L Xbee-rescue:DIPxx-1Cxx-51x-Relay K1
 U 1 1 5C1D5DE1
 P 10100 4850
 F 0 "K1" H 10530 4896 50  0000 L CNN
-F 1 "DIPxx-1Cxx-51x" H 10530 4805 50  0000 L CNN
+F 1 "Rele12V" H 10530 4805 50  0000 L CNN
 F 2 "Relay_THT:Relay_StandexMeder_DIP_LowProfile" H 10550 4800 50  0001 L CNN
 F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" H 10100 4850 50  0001 C CNN
 	1    10100 4850
@@ -1036,7 +1036,7 @@ Wire Wire Line
 Wire Wire Line
 	9100 5550 9100 5600
 $Comp
-L power:GNDREF #PWR036
+L Xbee-rescue:GNDREF-power #PWR036
 U 1 1 5C1DC256
 P 10350 5500
 F 0 "#PWR036" H 10350 5250 50  0001 C CNN
@@ -1054,7 +1054,7 @@ Wire Wire Line
 	10300 5150 10300 5200
 NoConn ~ 10200 4550
 $Comp
-L Device:R R13
+L Xbee-rescue:R-Device R13
 U 1 1 5C1E2668
 P 10550 5400
 F 0 "R13" H 10620 5446 50  0000 L CNN
@@ -1065,7 +1065,7 @@ F 3 "~" H 10550 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_ALT D7
+L Xbee-rescue:LED_ALT-Device D7
 U 1 1 5C1E279D
 P 10550 5850
 F 0 "D7" V 10588 5732 50  0000 R CNN
@@ -1085,7 +1085,7 @@ Connection ~ 10300 5200
 Wire Wire Line
 	10300 5200 10300 5350
 $Comp
-L power:GNDREF #PWR037
+L Xbee-rescue:GNDREF-power #PWR037
 U 1 1 5C1E4AAA
 P 10550 6000
 F 0 "#PWR037" H 10550 5750 50  0001 C CNN
@@ -1098,30 +1098,30 @@ $EndComp
 Text Label 5800 5500 0    50   ~ 0
 DIO2
 $Comp
-L Jumper:Jumper_2_Open JP2
+L Xbee-rescue:Jumper_2_Open-Jumper JP2
 U 1 1 5C1E653E
-P 3300 3600
-F 0 "JP2" V 3346 3512 50  0000 R CNN
-F 1 "Loopback" V 3255 3512 50  0000 R CNN
-F 2 "" H 3300 3600 50  0001 C CNN
-F 3 "~" H 3300 3600 50  0001 C CNN
-	1    3300 3600
+P 3200 3450
+F 0 "JP2" V 3246 3362 50  0000 R CNN
+F 1 "Loopback" V 3155 3362 50  0000 R CNN
+F 2 "" H 3200 3450 50  0001 C CNN
+F 3 "~" H 3200 3450 50  0001 C CNN
+	1    3200 3450
 	0    -1   -1   0   
 $EndComp
-Text Label 3300 3300 2    50   ~ 0
+Text Label 3200 3150 2    50   ~ 0
 RXD
-Text Label 3300 3900 2    50   ~ 0
+Text Label 3200 3750 2    50   ~ 0
 TXD
 Wire Wire Line
-	3300 3800 3300 3900
+	3200 3650 3200 3750
 Wire Wire Line
-	3300 3300 3300 3400
+	3200 3150 3200 3250
 Text Label 3100 5050 2    50   ~ 0
 RXD
 Text Label 3100 5150 2    50   ~ 0
 TXD
 $Comp
-L power:GNDREF #PWR014
+L Xbee-rescue:GNDREF-power #PWR014
 U 1 1 5C1EBD87
 P 3100 5300
 F 0 "#PWR014" H 3100 5050 50  0001 C CNN
@@ -1157,7 +1157,7 @@ Text Label 5800 5600 0    50   ~ 0
 DIO3
 NoConn ~ 5800 5900
 $Comp
-L Diode:1N4007 D4
+L Xbee-rescue:1N4007-Diode D4
 U 1 1 5C1AA185
 P 9450 4850
 F 0 "D4" V 9404 4929 50  0000 L CNN
@@ -1178,7 +1178,7 @@ Connection ~ 9450 5150
 Wire Wire Line
 	9450 5150 9900 5150
 $Comp
-L Device:R R8
+L Xbee-rescue:R-Device R8
 U 1 1 5C89E422
 P 8500 5600
 F 0 "R8" H 8570 5646 50  0000 L CNN
@@ -1189,7 +1189,7 @@ F 3 "~" H 8500 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GNDREF #PWR025
+L Xbee-rescue:GNDREF-power #PWR025
 U 1 1 5C89E4B4
 P 8500 5750
 F 0 "#PWR025" H 8500 5500 50  0001 C CNN
@@ -1212,11 +1212,11 @@ Wire Wire Line
 	8250 4300 8500 4300
 Connection ~ 8500 4300
 $Comp
-L Connector_Generic:Conn_01x05 J2
+L Xbee-rescue:Conn_01x05-Connector_Generic J2
 U 1 1 5C8A34C2
 P 3400 5050
 F 0 "J2" H 3480 5092 50  0000 L CNN
-F 1 "Conn_01x05" H 3480 5001 50  0000 L CNN
+F 1 "Raspberry" H 3480 5001 50  0000 L CNN
 F 2 "" H 3400 5050 50  0001 C CNN
 F 3 "~" H 3400 5050 50  0001 C CNN
 	1    3400 5050
@@ -1234,4 +1234,48 @@ Text Label 3200 4850 2    50   ~ 0
 Rasp.In
 Text Label 3200 4950 2    50   ~ 0
 Rasp.Out
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5D51AB31
+P 2600 6800
+F 0 "#FLG0101" H 2600 6875 50  0001 C CNN
+F 1 "PWR_FLAG" H 2600 6973 50  0000 C CNN
+F 2 "" H 2600 6800 50  0001 C CNN
+F 3 "~" H 2600 6800 50  0001 C CNN
+	1    2600 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5D561288
+P 3100 6800
+F 0 "#FLG0102" H 3100 6875 50  0001 C CNN
+F 1 "PWR_FLAG" H 3100 6973 50  0000 C CNN
+F 2 "" H 3100 6800 50  0001 C CNN
+F 3 "~" H 3100 6800 50  0001 C CNN
+	1    3100 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xbee-rescue:GNDREF-power #PWR0101
+U 1 1 5D561846
+P 2600 6800
+F 0 "#PWR0101" H 2600 6550 50  0001 C CNN
+F 1 "GNDREF" H 2605 6627 50  0000 C CNN
+F 2 "" H 2600 6800 50  0001 C CNN
+F 3 "" H 2600 6800 50  0001 C CNN
+	1    2600 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xbee-rescue:+3.3V-power #PWR0102
+U 1 1 5D561EE1
+P 3100 6800
+F 0 "#PWR0102" H 3100 6650 50  0001 C CNN
+F 1 "+3.3V" H 3115 6973 50  0000 C CNN
+F 2 "" H 3100 6800 50  0001 C CNN
+F 3 "" H 3100 6800 50  0001 C CNN
+	1    3100 6800
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
