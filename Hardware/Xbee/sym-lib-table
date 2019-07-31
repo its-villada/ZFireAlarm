@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Xbee-rescue)(type Legacy)(uri ${KIPRJMOD}/Xbee-rescue.lib)(options "")(descr ""))
+  (lib (name Xbee-cache)(type Legacy)(uri ${KIPRJMOD}/Xbee-cache.lib)(options "")(descr ""))
 )
