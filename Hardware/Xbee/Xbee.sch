@@ -66,54 +66,16 @@ $EndComp
 Wire Wire Line
 	1550 1400 1400 1400
 $Comp
-L Xbee-rescue:LM317_3PinPackage-Regulator_Linear U1
-U 1 1 5C054755
-P 2800 1300
-F 0 "U1" H 2800 1542 50  0000 C CNN
-F 1 "LM317" H 2800 1451 50  0000 C CNN
-F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 2800 1550 50  0001 C CIN
-F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 2800 1300 50  0001 C CNN
-	1    2800 1300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Xbee-rescue:R-Device R3
-U 1 1 5C054800
-P 3250 1450
-F 0 "R3" H 3320 1496 50  0000 L CNN
-F 1 "330" H 3320 1405 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3180 1450 50  0001 C CNN
-F 3 "~" H 3250 1450 50  0001 C CNN
-	1    3250 1450
-	1    0    0    -1  
-$EndComp
-$Comp
-L Xbee-rescue:R-Device R4
-U 1 1 5C054888
-P 3250 1750
-F 0 "R4" H 3320 1796 50  0000 L CNN
-F 1 "560" H 3320 1705 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3180 1750 50  0001 C CNN
-F 3 "~" H 3250 1750 50  0001 C CNN
-	1    3250 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Xbee-rescue:GNDREF-power #PWR012
 U 1 1 5C0548D0
-P 3250 1900
-F 0 "#PWR012" H 3250 1650 50  0001 C CNN
-F 1 "GNDREF" H 3255 1727 50  0000 C CNN
-F 2 "" H 3250 1900 50  0001 C CNN
-F 3 "" H 3250 1900 50  0001 C CNN
-	1    3250 1900
+P 3050 1950
+F 0 "#PWR012" H 3050 1700 50  0001 C CNN
+F 1 "GNDREF" H 3055 1777 50  0000 C CNN
+F 2 "" H 3050 1950 50  0001 C CNN
+F 3 "" H 3050 1950 50  0001 C CNN
+	1    3050 1950
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3250 1600 2800 1600
-Connection ~ 3250 1600
-Wire Wire Line
-	3100 1300 3250 1300
 $Comp
 L Xbee-rescue:+12V-power #PWR07
 U 1 1 5C054989
@@ -179,34 +141,7 @@ Wire Wire Line
 	2350 1450 2350 1300
 Connection ~ 2350 1300
 Wire Wire Line
-	2350 1300 2450 1300
-Wire Wire Line
 	3700 1450 3700 1300
-Wire Wire Line
-	3700 1300 3250 1300
-Connection ~ 3250 1300
-$Comp
-L Xbee-rescue:1N4007-Diode D2
-U 1 1 5C054DA4
-P 2800 900
-F 0 "D2" H 2800 1116 50  0000 C CNN
-F 1 "1N4007" H 2800 1025 50  0000 C CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2800 725 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 2800 900 50  0001 C CNN
-	1    2800 900 
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2650 900  2450 900 
-Wire Wire Line
-	2450 900  2450 1300
-Connection ~ 2450 1300
-Wire Wire Line
-	2450 1300 2500 1300
-Wire Wire Line
-	2950 900  3250 900 
-Wire Wire Line
-	3250 900  3250 1300
 $Comp
 L Xbee-rescue:SW_Push_Dual-Switch SW1
 U 1 1 5C05513C
@@ -251,7 +186,6 @@ F 3 "" H 3700 1300 50  0001 C CNN
 	1    3700 1300
 	1    0    0    -1  
 $EndComp
-Connection ~ 3700 1300
 NoConn ~ 6750 3300
 Text Label 4550 3100 2    50   ~ 0
 RST
@@ -336,7 +270,7 @@ U 1 1 5C1A5C83
 P 1700 6150
 F 0 "D1" V 1738 6032 50  0000 R CNN
 F 1 "Assoc-RSSI" V 1647 6032 50  0000 R CNN
-F 2 "LED_THT:LED_D5.0mm" H 1700 6150 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 1700 6150 50  0001 C CNN
 F 3 "~" H 1700 6150 50  0001 C CNN
 	1    1700 6150
 	0    -1   -1   0   
@@ -478,7 +412,7 @@ U 1 1 5C1ADCAC
 P 9250 1200
 F 0 "U3" H 9250 1567 50  0000 C CNN
 F 1 "LM358" H 9250 1476 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 9250 1200 50  0001 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 9250 1200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 9250 1200 50  0001 C CNN
 	1    9250 1200
 	1    0    0    -1  
@@ -489,7 +423,7 @@ U 2 1 5C1ADD3E
 P 9250 2000
 F 0 "U3" H 9250 2367 50  0000 C CNN
 F 1 "LM358" H 9250 2276 50  0000 C CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 9250 2000 50  0001 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 9250 2000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 9250 2000 50  0001 C CNN
 	2    9250 2000
 	1    0    0    -1  
@@ -500,7 +434,7 @@ U 3 1 5C1ADDD5
 P 7650 1350
 F 0 "U3" H 7608 1396 50  0000 L CNN
 F 1 "LM358" H 7608 1305 50  0000 L CNN
-F 2 "Package_DIP:DIP-8_W7.62mm_Socket_LongPads" H 7650 1350 50  0001 C CNN
+F 2 "Package_SO:SO-8_3.9x4.9mm_P1.27mm" H 7650 1350 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm2904-n.pdf" H 7650 1350 50  0001 C CNN
 	3    7650 1350
 	1    0    0    -1  
@@ -1046,7 +980,7 @@ U 1 1 5C1E279D
 P 10600 6100
 F 0 "D7" V 10638 5982 50  0000 R CNN
 F 1 "LED Salida" V 10547 5982 50  0000 R CNN
-F 2 "LED_THT:LED_D5.0mm" H 10600 6100 50  0001 C CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 10600 6100 50  0001 C CNN
 F 3 "~" H 10600 6100 50  0001 C CNN
 	1    10600 6100
 	0    -1   -1   0   
@@ -1286,6 +1220,22 @@ Text Label 6900 5900 0    50   ~ 0
 DIO2-Salida
 Text Label 8550 5350 0    50   ~ 0
 DIO2-Salida
-Text Label 4450 850  0    50   ~ 0
-asd
+$Comp
+L Regulator_Linear:AZ1117-3.3 U1
+U 1 1 5D4F039F
+P 3050 1300
+F 0 "U1" H 3050 1542 50  0000 C CNN
+F 1 "AZ1117-3.3" H 3050 1451 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 3050 1550 50  0001 C CIN
+F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 3050 1300 50  0001 C CNN
+	1    3050 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1300 2750 1300
+Wire Wire Line
+	3350 1300 3700 1300
+Connection ~ 3700 1300
+Wire Wire Line
+	3050 1600 3050 1950
 $EndSCHEMATC
