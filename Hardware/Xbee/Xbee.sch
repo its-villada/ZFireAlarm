@@ -1286,4 +1286,6 @@ Text Label 6900 5900 0    50   ~ 0
 DIO2-Salida
 Text Label 8550 5350 0    50   ~ 0
 DIO2-Salida
+Text Label 4450 850  0    50   ~ 0
+asd
 $EndSCHEMATC
