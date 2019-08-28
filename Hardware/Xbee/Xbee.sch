@@ -354,8 +354,8 @@ L Xbee-rescue:R-Device R1
 U 1 1 5C1AB260
 P 1250 5500
 F 0 "R1" V 1043 5500 50  0000 C CNN
-F 1 "360" V 1134 5500 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1180 5500 50  0001 C CNN
+F 1 "330" V 1134 5500 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1180 5500 50  0001 C CNN
 F 3 "~" H 1250 5500 50  0001 C CNN
 	1    1250 5500
 	0    1    1    0   
@@ -471,7 +471,7 @@ U 1 1 5C1A9BDF
 P 8150 1500
 F 0 "R7" H 8080 1454 50  0000 R CNN
 F 1 "3.3k" H 8080 1545 50  0000 R CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8080 1500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8080 1500 50  0001 C CNN
 F 3 "~" H 8150 1500 50  0001 C CNN
 	1    8150 1500
 	-1   0    0    1   
@@ -556,7 +556,7 @@ U 1 1 5C1ABB11
 P 9900 1200
 F 0 "R11" V 9693 1200 50  0000 C CNN
 F 1 "560" V 9784 1200 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9830 1200 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9830 1200 50  0001 C CNN
 F 3 "~" H 9900 1200 50  0001 C CNN
 	1    9900 1200
 	0    1    1    0   
@@ -567,7 +567,7 @@ U 1 1 5C1ABC44
 P 9900 2000
 F 0 "R12" V 9693 2000 50  0000 C CNN
 F 1 "560" V 9784 2000 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 9830 2000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9830 2000 50  0001 C CNN
 F 3 "~" H 9900 2000 50  0001 C CNN
 	1    9900 2000
 	0    1    1    0   
@@ -644,17 +644,6 @@ F 3 "~" H 8300 3150 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Xbee-rescue:BC338-Transistor_BJT Q2
-U 1 1 5C1B14D4
-P 7650 3400
-F 0 "Q2" H 7841 3446 50  0000 L CNN
-F 1 "BC338" H 7841 3355 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 7850 3325 50  0001 L CIN
-F 3 "http://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337" H 7650 3400 50  0001 L CNN
-	1    7650 3400
-	1    0    0    -1  
-$EndComp
-$Comp
 L Xbee-rescue:+3.3V-power #PWR023
 U 1 1 5C1B1DFA
 P 7750 2750
@@ -671,7 +660,7 @@ U 1 1 5C1B1F86
 P 7750 2950
 F 0 "R6" H 7820 2996 50  0000 L CNN
 F 1 "10k" H 7820 2905 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7680 2950 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7680 2950 50  0001 C CNN
 F 3 "~" H 7750 2950 50  0001 C CNN
 	1    7750 2950
 	-1   0    0    -1  
@@ -703,8 +692,8 @@ L Xbee-rescue:R-Device R5
 U 1 1 5C1B535E
 P 7300 3400
 F 0 "R5" V 7093 3400 50  0000 C CNN
-F 1 "10k" V 7184 3400 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 7230 3400 50  0001 C CNN
+F 1 "330" V 7184 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7230 3400 50  0001 C CNN
 F 3 "~" H 7300 3400 50  0001 C CNN
 	1    7300 3400
 	0    -1   1    0   
@@ -793,7 +782,7 @@ U 1 1 5C1C2E7B
 P 10150 3500
 F 0 "R10" H 10220 3546 50  0000 L CNN
 F 1 "10k" H 10220 3455 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10080 3500 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10080 3500 50  0001 C CNN
 F 3 "~" H 10150 3500 50  0001 C CNN
 	1    10150 3500
 	1    0    0    -1  
@@ -840,23 +829,12 @@ F 3 "~" H 6900 5650 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Xbee-rescue:BC338-Transistor_BJT Q3
-U 1 1 5C1D025D
-P 9050 5600
-F 0 "Q3" H 9241 5646 50  0000 L CNN
-F 1 "BC338" H 9241 5555 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline" H 9250 5525 50  0001 L CIN
-F 3 "http://diotec.com/tl_files/diotec/files/pdf/datasheets/bc337" H 9050 5600 50  0001 L CNN
-	1    9050 5600
-	1    0    0    -1  
-$EndComp
-$Comp
 L Xbee-rescue:R-Device R9
 U 1 1 5C1D0264
 P 8700 5600
 F 0 "R9" V 8493 5600 50  0000 C CNN
-F 1 "10k" V 8584 5600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8630 5600 50  0001 C CNN
+F 1 "330" V 8584 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8630 5600 50  0001 C CNN
 F 3 "~" H 8700 5600 50  0001 C CNN
 	1    8700 5600
 	0    1    1    0   
@@ -886,17 +864,6 @@ F 1 "+12V" H 10165 4823 50  0000 C CNN
 F 2 "" H 10150 4650 50  0001 C CNN
 F 3 "" H 10150 4650 50  0001 C CNN
 	1    10150 4650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Xbee-rescue:DIPxx-1Cxx-51x-Relay K1
-U 1 1 5C1D5DE1
-P 10150 5100
-F 0 "K1" H 10580 5146 50  0000 L CNN
-F 1 "Rele12V" H 10580 5055 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 10600 5050 50  0001 L CNN
-F 3 "https://standexelectronics.com/wp-content/uploads/datasheet_reed_relay_DIP.pdf" H 10150 5100 50  0001 C CNN
-	1    10150 5100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -936,7 +903,7 @@ U 1 1 5C1E2668
 P 10600 5650
 F 0 "R13" H 10670 5696 50  0000 L CNN
 F 1 "4k7" H 10670 5605 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 10530 5650 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10530 5650 50  0001 C CNN
 F 3 "~" H 10600 5650 50  0001 C CNN
 	1    10600 5650
 	1    0    0    -1  
@@ -1034,8 +1001,8 @@ L Xbee-rescue:1N4007-Diode D4
 U 1 1 5C1AA185
 P 9500 5100
 F 0 "D4" V 9454 5179 50  0000 L CNN
-F 1 "1N4007" V 9545 5179 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 9500 4925 50  0001 C CNN
+F 1 "1N4007WS" V 9500 4650 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9500 4925 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 9500 5100 50  0001 C CNN
 	1    9500 5100
 	0    1    1    0   
@@ -1056,7 +1023,7 @@ U 1 1 5C89E422
 P 8550 5850
 F 0 "R8" H 8620 5896 50  0000 L CNN
 F 1 "10k" H 8620 5805 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 8480 5850 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 8480 5850 50  0001 C CNN
 F 3 "~" H 8550 5850 50  0001 C CNN
 	1    8550 5850
 	1    0    0    -1  
@@ -1205,4 +1172,37 @@ Wire Wire Line
 Connection ~ 3700 1300
 Wire Wire Line
 	3050 1600 3050 1950
+$Comp
+L Transistor_FET:2N7002 Q1
+U 1 1 5D728B89
+P 7650 3400
+F 0 "Q1" H 7856 3446 50  0000 L CNN
+F 1 "2N7002" H 7856 3355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 7850 3325 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 7650 3400 50  0001 L CNN
+	1    7650 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Transistor_FET:2N7002 Q2
+U 1 1 5D75E2ED
+P 9050 5600
+F 0 "Q2" H 9256 5646 50  0000 L CNN
+F 1 "AP2300" H 9256 5555 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 9250 5525 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 9050 5600 50  0001 L CNN
+	1    9050 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay:SANYOU_SRD_Form_C K1
+U 1 1 5D884156
+P 10150 5100
+F 0 "K1" H 10580 5146 50  0000 L CNN
+F 1 "SANYOU_SRD_Form_C" H 10580 5055 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 10600 5050 50  0001 L CNN
+F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 10150 5100 50  0001 C CNN
+	1    10150 5100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
