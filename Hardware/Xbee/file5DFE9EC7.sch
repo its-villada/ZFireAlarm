@@ -1255,4 +1255,121 @@ BC 9A 75 76 11 11 11 11 F9 AF 1D 55 A4 FF 4F B9 94 0F 00 14 1C 47 4F 1B F7 8D 1B
 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Text HLabel 6000 1350 1    50   Input ~ 0
+Vin+
+Text HLabel 4700 2250 0    50   Input ~ 0
+Bat+
+$Comp
+L Device:D_Schottky_ALT D2
+U 1 1 5D952A15
+P 4750 1500
+F 0 "D2" H 4750 1716 50  0000 C CNN
+F 1 "D_Schottky_ALT" H 4750 1625 50  0000 C CNN
+F 2 "" H 4750 1500 50  0001 C CNN
+F 3 "~" H 4750 1500 50  0001 C CNN
+	1    4750 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_ALT D8
+U 1 1 5D952EF8
+P 5800 2250
+F 0 "D8" H 5800 2034 50  0000 C CNN
+F 1 "D_ALT" H 5800 2125 50  0000 C CNN
+F 2 "" H 5800 2250 50  0001 C CNN
+F 3 "~" H 5800 2250 50  0001 C CNN
+	1    5800 2250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5D9533C4
+P 5600 1500
+F 0 "R3" H 5670 1546 50  0000 L CNN
+F 1 "10k" H 5670 1455 50  0000 L CNN
+F 2 "" V 5530 1500 50  0001 C CNN
+F 3 "~" H 5600 1500 50  0001 C CNN
+	1    5600 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 1350 5600 1350
+Wire Wire Line
+	5100 1650 5400 1650
+Wire Wire Line
+	6000 1350 5600 1350
+Connection ~ 5600 1350
+$Comp
+L Device:D_Schottky_ALT D9
+U 1 1 5D9575F1
+P 6000 1750
+F 0 "D9" V 6046 1671 50  0000 R CNN
+F 1 "D_Schottky_ALT" V 5955 1671 50  0000 R CNN
+F 2 "" H 6000 1750 50  0001 C CNN
+F 3 "~" H 6000 1750 50  0001 C CNN
+	1    6000 1750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6000 1600 6000 1350
+$Comp
+L power:+12V #PWR0103
+U 1 1 5D9587BC
+P 6250 2250
+F 0 "#PWR0103" H 6250 2100 50  0001 C CNN
+F 1 "+12V" H 6265 2423 50  0000 C CNN
+F 2 "" H 6250 2250 50  0001 C CNN
+F 3 "" H 6250 2250 50  0001 C CNN
+	1    6250 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 5D95A68D
+P 4750 1900
+F 0 "R2" V 4543 1900 50  0000 C CNN
+F 1 "100" V 4634 1900 50  0000 C CNN
+F 2 "" V 4680 1900 50  0001 C CNN
+F 3 "~" H 4750 1900 50  0001 C CNN
+	1    4750 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 1900 6000 2250
+Wire Wire Line
+	5950 2250 6000 2250
+Connection ~ 6000 2250
+Wire Wire Line
+	6000 2250 6250 2250
+Wire Wire Line
+	4750 1350 4900 1350
+Wire Wire Line
+	4750 1650 4750 1750
+Wire Wire Line
+	4750 2050 4750 2250
+Wire Wire Line
+	4750 2250 5650 2250
+Wire Wire Line
+	4700 2250 4750 2250
+Connection ~ 4750 2250
+Text HLabel 5400 1950 0    50   Input ~ 0
+CargaBat
+Wire Wire Line
+	5400 1950 5400 1650
+Connection ~ 5400 1650
+Wire Wire Line
+	5400 1650 5600 1650
+Text Notes 4800 950  0    79   ~ 0
+Cargador de batería
+$Comp
+L Transistor_FET:DMP3013SFV Q3
+U 1 1 5DAEF0EF
+P 5100 1450
+F 0 "Q3" V 5443 1450 50  0000 C CNN
+F 1 "DMP3099L-7" V 5352 1450 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5300 1375 50  0001 L CIN
+F 3 "https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf" V 5100 1450 50  0001 L CNN
+	1    5100 1450
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

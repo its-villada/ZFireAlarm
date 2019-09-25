@@ -33,38 +33,25 @@ $EndComp
 $Comp
 L Xbee-rescue:GNDREF-power #PWR03
 U 1 1 5C05451D
-P 2800 3050
-F 0 "#PWR03" H 2800 2800 50  0001 C CNN
-F 1 "GNDREF" H 2805 2877 50  0000 C CNN
-F 2 "" H 2800 3050 50  0001 C CNN
-F 3 "" H 2800 3050 50  0001 C CNN
-	1    2800 3050
+P 2850 3100
+F 0 "#PWR03" H 2850 2850 50  0001 C CNN
+F 1 "GNDREF" H 2855 2927 50  0000 C CNN
+F 2 "" H 2850 3100 50  0001 C CNN
+F 3 "" H 2850 3100 50  0001 C CNN
+	1    2850 3100
 	1    0    0    -1  
 $EndComp
 $Comp
 L Xbee-rescue:Screw_Terminal_01x02-Connector J1
 U 1 1 5C0545C1
-P 2600 3050
-F 0 "J1" H 2650 2700 50  0000 C CNN
-F 1 "Alimentación" H 2650 2800 50  0000 C CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2600 3050 50  0001 C CNN
-F 3 "~" H 2600 3050 50  0001 C CNN
-	1    2600 3050
+P 2650 3100
+F 0 "J1" H 2700 2750 50  0000 C CNN
+F 1 "Alimentación" H 2700 2850 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2650 3100 50  0001 C CNN
+F 3 "~" H 2650 3100 50  0001 C CNN
+	1    2650 3100
 	-1   0    0    1   
 $EndComp
-$Comp
-L Xbee-rescue:+12V-power #PWR04
-U 1 1 5C0546B0
-P 2950 2950
-F 0 "#PWR04" H 2950 2800 50  0001 C CNN
-F 1 "+12V" H 2965 3123 50  0000 C CNN
-F 2 "" H 2950 2950 50  0001 C CNN
-F 3 "" H 2950 2950 50  0001 C CNN
-	1    2950 2950
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2950 2950 2800 2950
 $Comp
 L Xbee-rescue:+12V-power #PWR07
 U 1 1 5C054989
@@ -112,12 +99,12 @@ $EndComp
 $Comp
 L Xbee-rescue:+3.3V-power #PWR013
 U 1 1 5C0558A9
-P 5700 4600
-F 0 "#PWR013" H 5700 4450 50  0001 C CNN
-F 1 "+3.3V" H 5715 4773 50  0000 C CNN
-F 2 "" H 5700 4600 50  0001 C CNN
-F 3 "" H 5700 4600 50  0001 C CNN
-	1    5700 4600
+P 5800 4700
+F 0 "#PWR013" H 5800 4550 50  0001 C CNN
+F 1 "+3.3V" H 5815 4873 50  0000 C CNN
+F 2 "" H 5800 4700 50  0001 C CNN
+F 3 "" H 5800 4700 50  0001 C CNN
+	1    5800 4700
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6100 5750
@@ -190,23 +177,23 @@ Assoc.
 $Comp
 L Xbee-rescue:LED_ALT-Device D1
 U 1 1 5C1A5C83
-P 1950 5400
-F 0 "D1" V 1988 5282 50  0000 R CNN
-F 1 "Blue Assoc-RSSI" V 1897 5282 50  0000 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric" H 1950 5400 50  0001 C CNN
-F 3 "~" H 1950 5400 50  0001 C CNN
-	1    1950 5400
+P 1500 5400
+F 0 "D1" H 1550 5250 50  0000 R CNN
+F 1 "Blue Assoc-RSSI" H 1700 5200 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 1500 5400 50  0001 C CNN
+F 3 "~" H 1500 5400 50  0001 C CNN
+	1    1500 5400
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Xbee-rescue:GNDREF-power #PWR06
 U 1 1 5C1A5D78
-P 1950 5650
-F 0 "#PWR06" H 1950 5400 50  0001 C CNN
-F 1 "GNDREF" H 1955 5477 50  0000 C CNN
-F 2 "" H 1950 5650 50  0001 C CNN
-F 3 "" H 1950 5650 50  0001 C CNN
-	1    1950 5650
+P 1500 5650
+F 0 "#PWR06" H 1500 5400 50  0001 C CNN
+F 1 "GNDREF" H 1505 5477 50  0000 C CNN
+F 2 "" H 1500 5650 50  0001 C CNN
+F 3 "" H 1500 5650 50  0001 C CNN
+	1    1500 5650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -286,25 +273,25 @@ RSSI
 $Comp
 L Xbee-rescue:R-Device R1
 U 1 1 5C1AB260
-P 1950 5100
-F 0 "R1" V 1743 5100 50  0000 C CNN
-F 1 "330" V 1834 5100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1880 5100 50  0001 C CNN
-F 3 "~" H 1950 5100 50  0001 C CNN
-	1    1950 5100
+P 1500 5100
+F 0 "R1" V 1293 5100 50  0000 C CNN
+F 1 "330" V 1384 5100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1430 5100 50  0001 C CNN
+F 3 "~" H 1500 5100 50  0001 C CNN
+	1    1500 5100
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	1950 5550 1950 5650
+	1500 5550 1500 5650
 $Comp
 L Xbee-rescue:Screw_Terminal_01x02-Connector J7
 U 1 1 5C1ACCE8
-P 2600 2350
-F 0 "J7" H 2680 2342 50  0000 L CNN
-F 1 "Salida" H 2680 2251 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2600 2350 50  0001 C CNN
-F 3 "~" H 2600 2350 50  0001 C CNN
-	1    2600 2350
+P 2650 2400
+F 0 "J7" H 2730 2392 50  0000 L CNN
+F 1 "Salida" H 2730 2301 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2650 2400 50  0001 C CNN
+F 3 "~" H 2650 2400 50  0001 C CNN
+	1    2650 2400
 	-1   0    0    1   
 $EndComp
 $Comp
@@ -396,9 +383,9 @@ F 3 "~" H 8750 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8900 1250 9150 1250
+	8900 1250 9050 1250
 Wire Wire Line
-	8900 2250 9150 2250
+	8900 2250 9050 2250
 $Comp
 L Xbee-rescue:R-Device R7
 U 1 1 5C1A9BDF
@@ -487,13 +474,13 @@ $EndComp
 $Comp
 L Xbee-rescue:R-Device R11
 U 1 1 5C1ABB11
-P 10100 1350
-F 0 "R11" V 9893 1350 50  0000 C CNN
-F 1 "560" V 9984 1350 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 10030 1350 50  0001 C CNN
-F 3 "~" H 10100 1350 50  0001 C CNN
-	1    10100 1350
-	0    1    1    0   
+P 2400 5100
+F 0 "R11" V 2193 5100 50  0000 C CNN
+F 1 "560" V 2284 5100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2330 5100 50  0001 C CNN
+F 3 "~" H 2400 5100 50  0001 C CNN
+	1    2400 5100
+	-1   0    0    1   
 $EndComp
 $Comp
 L Xbee-rescue:R-Device R12
@@ -509,12 +496,12 @@ $EndComp
 $Comp
 L Xbee-rescue:LED_ALT-Device D5
 U 1 1 5C1ABD1F
-P 10350 1500
-F 0 "D5" V 10388 1382 50  0000 R CNN
-F 1 "LED ON" V 10297 1382 50  0000 R CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 10350 1500 50  0001 C CNN
-F 3 "~" H 10350 1500 50  0001 C CNN
-	1    10350 1500
+P 2400 5400
+F 0 "D5" V 2438 5282 50  0000 R CNN
+F 1 "LED ON" V 2347 5282 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 2400 5400 50  0001 C CNN
+F 3 "~" H 2400 5400 50  0001 C CNN
+	1    2400 5400
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -528,23 +515,19 @@ F 3 "~" H 10350 2300 50  0001 C CNN
 	1    10350 2300
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	9750 1350 9950 1350
-Wire Wire Line
-	10250 1350 10350 1350
 $Comp
 L Xbee-rescue:GNDREF-power #PWR036
 U 1 1 5C1ACBFD
-P 10350 1750
-F 0 "#PWR036" H 10350 1500 50  0001 C CNN
-F 1 "GNDREF" H 10355 1577 50  0000 C CNN
-F 2 "" H 10350 1750 50  0001 C CNN
-F 3 "" H 10350 1750 50  0001 C CNN
-	1    10350 1750
+P 2400 5650
+F 0 "#PWR036" H 2400 5400 50  0001 C CNN
+F 1 "GNDREF" H 2405 5477 50  0000 C CNN
+F 2 "" H 2400 5650 50  0001 C CNN
+F 3 "" H 2400 5650 50  0001 C CNN
+	1    2400 5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10350 1650 10350 1750
+	2400 5550 2400 5650
 Wire Wire Line
 	10250 2150 10350 2150
 Wire Wire Line
@@ -702,38 +685,38 @@ Comm.
 $Comp
 L Xbee-rescue:R-Device R10
 U 1 1 5C1C2E7B
-P 2900 1450
-F 0 "R10" H 2700 1550 50  0000 L CNN
-F 1 "10k" H 2700 1450 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2830 1450 50  0001 C CNN
-F 3 "~" H 2900 1450 50  0001 C CNN
-	1    2900 1450
+P 2950 1450
+F 0 "R10" H 2750 1550 50  0000 L CNN
+F 1 "10k" H 2750 1450 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2880 1450 50  0001 C CNN
+F 3 "~" H 2950 1450 50  0001 C CNN
+	1    2950 1450
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Xbee-rescue:+3.3V-power #PWR032
 U 1 1 5C1C3018
-P 2900 1300
-F 0 "#PWR032" H 2900 1150 50  0001 C CNN
-F 1 "+3.3V" H 2915 1473 50  0000 C CNN
-F 2 "" H 2900 1300 50  0001 C CNN
-F 3 "" H 2900 1300 50  0001 C CNN
-	1    2900 1300
+P 2950 1300
+F 0 "#PWR032" H 2950 1150 50  0001 C CNN
+F 1 "+3.3V" H 2965 1473 50  0000 C CNN
+F 2 "" H 2950 1300 50  0001 C CNN
+F 3 "" H 2950 1300 50  0001 C CNN
+	1    2950 1300
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Xbee-rescue:GNDREF-power #PWR033
 U 1 1 5C1C50B1
-P 2900 1700
-F 0 "#PWR033" H 2900 1450 50  0001 C CNN
-F 1 "GNDREF" H 2905 1527 50  0000 C CNN
-F 2 "" H 2900 1700 50  0001 C CNN
-F 3 "" H 2900 1700 50  0001 C CNN
-	1    2900 1700
+P 2950 1700
+F 0 "#PWR033" H 2950 1450 50  0001 C CNN
+F 1 "GNDREF" H 2955 1527 50  0000 C CNN
+F 2 "" H 2950 1700 50  0001 C CNN
+F 3 "" H 2950 1700 50  0001 C CNN
+	1    2950 1700
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	2900 1700 2800 1700
+	2950 1700 2850 1700
 Text Label 3900 6950 2    50   ~ 0
 DIO2
 Text Label 5000 2350 0    50   ~ 0
@@ -798,18 +781,18 @@ Wire Wire Line
 $Comp
 L Xbee-rescue:GNDREF-power #PWR038
 U 1 1 5C1DC256
-P 2850 2400
-F 0 "#PWR038" H 2850 2150 50  0001 C CNN
-F 1 "GNDREF" H 2855 2227 50  0000 C CNN
-F 2 "" H 2850 2400 50  0001 C CNN
-F 3 "" H 2850 2400 50  0001 C CNN
-	1    2850 2400
+P 2900 2450
+F 0 "#PWR038" H 2900 2200 50  0001 C CNN
+F 1 "GNDREF" H 2905 2277 50  0000 C CNN
+F 2 "" H 2900 2450 50  0001 C CNN
+F 3 "" H 2900 2450 50  0001 C CNN
+	1    2900 2450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 2400 2850 2350
+	2900 2450 2900 2400
 Wire Wire Line
-	2850 2350 2800 2350
+	2900 2400 2850 2400
 NoConn ~ 9900 4450
 $Comp
 L Xbee-rescue:R-Device R13
@@ -826,8 +809,8 @@ $Comp
 L Xbee-rescue:LED_ALT-Device D7
 U 1 1 5C1E279D
 P 850 5450
-F 0 "D7" V 888 5332 50  0000 R CNN
-F 1 "LED Green Salida" V 797 5332 50  0000 R CNN
+F 0 "D7" H 950 5350 50  0000 R CNN
+F 1 "LED Green Salida" H 1150 5250 50  0000 R CNN
 F 2 "LED_SMD:LED_0805_2012Metric" H 850 5450 50  0001 C CNN
 F 3 "~" H 850 5450 50  0001 C CNN
 	1    850  5450
@@ -869,19 +852,19 @@ Wire Wire Line
 	5950 1550 5950 1650
 Wire Wire Line
 	5950 1050 5950 1150
-Text Label 1950 3450 2    50   ~ 0
+Text Label 1550 3500 2    50   ~ 0
 RXD
-Text Label 1950 3550 2    50   ~ 0
+Text Label 1550 3600 2    50   ~ 0
 TXD
 $Comp
 L Xbee-rescue:GNDREF-power #PWR011
 U 1 1 5C1EBD87
-P 1950 3700
-F 0 "#PWR011" H 1950 3450 50  0001 C CNN
-F 1 "GNDREF" H 1955 3527 50  0000 C CNN
-F 2 "" H 1950 3700 50  0001 C CNN
-F 3 "" H 1950 3700 50  0001 C CNN
-	1    1950 3700
+P 1550 3750
+F 0 "#PWR011" H 1550 3500 50  0001 C CNN
+F 1 "GNDREF" H 1555 3577 50  0000 C CNN
+F 2 "" H 1550 3750 50  0001 C CNN
+F 3 "" H 1550 3750 50  0001 C CNN
+	1    1550 3750
 	1    0    0    -1  
 $EndComp
 Text Label 3900 6150 2    50   ~ 0
@@ -954,30 +937,30 @@ Wire Wire Line
 	9350 5600 9150 5600
 Text Label 9150 5600 2    50   ~ 0
 Rasp.Out
-Text Label 3200 1550 0    50   ~ 0
+Text Label 3250 1550 0    50   ~ 0
 Rasp.In
 $Comp
 L Xbee-rescue:Conn_01x05-Connector_Generic J2
 U 1 1 5C8A34C2
-P 2250 3450
-F 0 "J2" H 2330 3492 50  0000 L CNN
-F 1 "Raspberry" H 2330 3401 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 2250 3450 50  0001 C CNN
-F 3 "~" H 2250 3450 50  0001 C CNN
-	1    2250 3450
+P 1850 3500
+F 0 "J2" H 1930 3542 50  0000 L CNN
+F 1 "Raspberry" H 1930 3451 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1850 3500 50  0001 C CNN
+F 3 "~" H 1850 3500 50  0001 C CNN
+	1    1850 3500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1950 3700 1950 3650
+	1550 3750 1550 3700
 Wire Wire Line
-	1950 3650 2050 3650
+	1550 3700 1650 3700
 Wire Wire Line
-	1950 3550 2050 3550
+	1550 3600 1650 3600
 Wire Wire Line
-	1950 3450 2050 3450
-Text Label 2050 3250 2    50   ~ 0
+	1550 3500 1650 3500
+Text Label 1650 3300 2    50   ~ 0
 Rasp.In
-Text Label 2050 3350 2    50   ~ 0
+Text Label 1650 3400 2    50   ~ 0
 Rasp.Out
 $Comp
 L power:PWR_FLAG #FLG01
@@ -1041,17 +1024,17 @@ DSR-DIO12
 $Comp
 L Xbee-rescue:Screw_Terminal_01x02-Connector J6
 U 1 1 5C1ACBCC
-P 2600 1700
-F 0 "J6" H 2600 1400 50  0000 L CNN
-F 1 "Entrada" H 2500 1500 50  0000 L CNN
-F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2600 1700 50  0001 C CNN
-F 3 "~" H 2600 1700 50  0001 C CNN
-	1    2600 1700
+P 2650 1700
+F 0 "J6" H 2650 1400 50  0000 L CNN
+F 1 "Entrada" H 2550 1500 50  0000 L CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2650 1700 50  0001 C CNN
+F 3 "~" H 2650 1700 50  0001 C CNN
+	1    2650 1700
 	-1   0    0    1   
 $EndComp
 Text Label 4850 2100 0    50   ~ 0
 DIO2-Entrada
-Text Label 3200 1650 0    50   ~ 0
+Text Label 3250 1650 0    50   ~ 0
 DIO2-Entrada
 Text Label 4850 2700 0    50   ~ 0
 DIO2-Salida
@@ -1093,25 +1076,25 @@ $EndComp
 Text Notes 1450 850  0    79   ~ 0
 Borneras-Entrada-Salida
 Wire Wire Line
-	3200 1550 3100 1550
+	3250 1550 3150 1550
 Wire Wire Line
-	3200 1650 3100 1650
+	3250 1650 3150 1650
 Wire Wire Line
-	3100 1650 3100 1600
-Connection ~ 2900 1600
+	3150 1650 3150 1600
+Connection ~ 2950 1600
 Wire Wire Line
-	2900 1600 2800 1600
+	2950 1600 2850 1600
 Wire Wire Line
-	3100 1600 2900 1600
-Connection ~ 3100 1600
+	3150 1600 2950 1600
+Connection ~ 3150 1600
 Wire Wire Line
-	3100 1600 3100 1550
+	3150 1600 3150 1550
 Text Label 10000 5050 0    50   ~ 0
 Salida-Rele
-Text Label 2800 2150 0    50   ~ 0
+Text Label 2850 2200 0    50   ~ 0
 Salida-Rele
 Wire Wire Line
-	2800 2150 2800 2250
+	2850 2200 2850 2300
 Text Label 850  4800 0    50   ~ 0
 Salida-Rele
 Wire Notes Line
@@ -1134,10 +1117,10 @@ Wire Notes Line
 	2750 5900 650  5900
 Wire Notes Line
 	650  5900 650  4300
-Text Label 1950 4800 0    50   ~ 0
+Text Label 1500 4800 0    50   ~ 0
 LED-Assoc-RSSI
 Wire Wire Line
-	1950 4800 1950 4950
+	1500 4800 1500 4950
 Text Label 5050 1400 0    50   ~ 0
 LED-Assoc-RSSI
 Text Label 5950 2600 0    50   ~ 0
@@ -1193,7 +1176,7 @@ Wire Notes Line
 Wire Notes Line
 	8600 3750 11100 3750
 Text Notes 8650 800  0    79   ~ 0
-Estado-Batería
+Comparadaor-Batería
 Wire Notes Line
 	7450 650  11000 650 
 Wire Notes Line
@@ -1223,17 +1206,18 @@ Wire Notes Line
 Wire Notes Line
 	6600 5400 6600 3600
 $Sheet
-S 4500 4050 1050 700 
+S 4500 4050 1150 800 
 U 5DFE9EC8
 F0 "Regulador-Cargador" 50
 F1 "file5DFE9EC7.sch" 50
 F2 "Entrada-12V" I L 4500 4200 50 
-F3 "Salida-3.3V" I R 5550 4600 50 
+F3 "Salida-3.3V" I R 5650 4700 50 
+F4 "Vin+" I L 4500 4400 50 
+F5 "Bat+" I L 4500 4750 50 
+F6 "CargaBat" I L 4500 4600 50 
 $EndSheet
 Wire Wire Line
 	4300 4200 4500 4200
-Wire Wire Line
-	5700 4600 5550 4600
 $Bitmap
 Pos 9100 6850
 Scale 0.300000
@@ -2363,4 +2347,97 @@ BC 9A 75 76 11 11 11 11 F9 AF 1D 55 A4 FF 4F B9 94 0F 00 14 1C 47 4F 1B F7 8D 1B
 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L Xbee-rescue:GNDREF-power #PWR0101
+U 1 1 5D8D1F3A
+P 2850 3750
+F 0 "#PWR0101" H 2850 3500 50  0001 C CNN
+F 1 "GNDREF" H 2855 3577 50  0000 C CNN
+F 2 "" H 2850 3750 50  0001 C CNN
+F 3 "" H 2850 3750 50  0001 C CNN
+	1    2850 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xbee-rescue:Screw_Terminal_01x02-Connector J8
+U 1 1 5D8D1F40
+P 2650 3750
+F 0 "J8" H 2700 3400 50  0000 C CNN
+F 1 "Batería" H 2700 3500 50  0000 C CNN
+F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2650 3750 50  0001 C CNN
+F 3 "~" H 2650 3750 50  0001 C CNN
+	1    2650 3750
+	-1   0    0    1   
+$EndComp
+Text Label 3000 3000 0    50   ~ 0
+Vin+
+Wire Wire Line
+	3000 3000 2850 3000
+Text Label 2950 3650 0    50   ~ 0
+Bat+
+Wire Wire Line
+	2950 3650 2850 3650
+Text Label 4350 4750 2    50   ~ 0
+Bat+
+Text Label 4350 4400 2    50   ~ 0
+Vin+
+Wire Wire Line
+	4350 4400 4500 4400
+$Comp
+L power:+12V #PWR0102
+U 1 1 5D9A97D1
+P 2400 4800
+F 0 "#PWR0102" H 2400 4650 50  0001 C CNN
+F 1 "+12V" H 2415 4973 50  0000 C CNN
+F 2 "" H 2400 4800 50  0001 C CNN
+F 3 "" H 2400 4800 50  0001 C CNN
+	1    2400 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2400 4800 2400 4950
+Text Label 9950 1350 0    50   ~ 0
+CargaBatería
+Wire Wire Line
+	9950 1350 9750 1350
+Text Label 4300 4600 2    50   ~ 0
+CargaBatería
+Wire Wire Line
+	4350 4750 4500 4750
+Wire Wire Line
+	4300 4600 4500 4600
+Wire Wire Line
+	5800 4700 5650 4700
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5DAA1303
+P 9050 1000
+F 0 "H1" H 9150 1049 50  0000 L CNN
+F 1 "PoteCarga" H 8850 950 50  0000 L CNN
+F 2 "" H 9050 1000 50  0001 C CNN
+F 3 "~" H 9050 1000 50  0001 C CNN
+	1    9050 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 1100 9050 1250
+Connection ~ 9050 1250
+Wire Wire Line
+	9050 1250 9150 1250
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 5DAA430F
+P 9050 2450
+F 0 "H2" H 9150 2499 50  0000 L CNN
+F 1 "PoteEstado" H 8850 2400 50  0000 L CNN
+F 2 "" H 9050 2450 50  0001 C CNN
+F 3 "~" H 9050 2450 50  0001 C CNN
+	1    9050 2450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	9050 2350 9050 2250
+Connection ~ 9050 2250
+Wire Wire Line
+	9050 2250 9150 2250
 $EndSCHEMATC
