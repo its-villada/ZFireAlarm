@@ -1,0 +1,1162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/media/profesores2/Datos/Matias Pereyra/Github/ZFireAlarm/Hardware/Xbee/Xbee.sch</source>
+    <date>mié 02 oct 2019 14:20:50 -03</date>
+    <tool>Eeschema 5.1.3-ffb9f22~84~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Módulo Xbee sirenas de incendio</title>
+        <company>ITS Villada</company>
+        <rev/>
+        <date/>
+        <source>Xbee.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Regulador-Cargador/" tstamps="/5DFE9EC8/">
+      <title_block>
+        <title>Módulo Xbee sirenas de incendio</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>file5DFE9EC7.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U2">
+      <value>Xbee</value>
+      <footprint>XBP24CZ7PITB003:DIP2200W51P200L3294H279Q20P</footprint>
+      <datasheet>Digi International</datasheet>
+      <fields>
+        <field name="Field4">Module Digi International</field>
+        <field name="Field5">None</field>
+        <field name="Field6">XBP24CZ7PITB003</field>
+        <field name="Field7">Programmable Xbee-Pro Zb S2c Th _Pcb Antenna_</field>
+        <field name="Field8">Unavailable</field>
+      </fields>
+      <libsource lib="Xbee-rescue" part="XBP24CZ7PITB003-XBP24CZ7PITB003" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C053126</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Alimentación</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="Screw_Terminal_01x02-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C0545C1</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>Reset</value>
+      <footprint>Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx</footprint>
+      <libsource lib="Xbee-rescue" part="SW_Push_Dual-Switch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C05513C</tstamp>
+    </comp>
+    <comp ref="SW2">
+      <value>Comm.</value>
+      <footprint>Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx</footprint>
+      <libsource lib="Xbee-rescue" part="SW_Push_Dual-Switch" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C0551E7</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>Blue Assoc-RSSI</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="LED_ALT-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1A5C83</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>Programación</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="Conn_02x05_Counter_Clockwise-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1A76BB</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>Assoc-RSSI</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="Jumper_3_Open-Jumper" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1A987B</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1AB260</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>Salida</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="Screw_Terminal_01x02-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1ACCE8</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>LM358</value>
+      <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2904-n.pdf</datasheet>
+      <libsource lib="Xbee-rescue" part="LM358-Amplifier_Operational" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1ADCAC</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>Zener 5V</value>
+      <footprint>Diode_SMD:D_SOT-23_ANK</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="D_Zener_ALT-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1A74DB</tstamp>
+    </comp>
+    <comp ref="RV1">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3386C_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1A82CD</tstamp>
+    </comp>
+    <comp ref="RV2">
+      <value>10k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3386C_Horizontal</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="R_POT-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1A8357</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>3.3k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1A9BDF</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1ABB11</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>560</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1ABC44</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>LED ON</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="LED_ALT-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1ABD1F</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>LED Batería</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="LED_ALT-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1ABED0</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1B1F86</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1B535E</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>Pines 1</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="Conn_01x10-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1B8F13</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>Pines 2</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x10_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="Conn_01x10-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1B916F</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1C2E7B</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>DIO2 E/S</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="Jumper_3_Open-Jumper" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1C9030</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1D0264</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>4k7</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1E2668</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>LED Green Salida</value>
+      <footprint>LED_SMD:LED_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="LED_ALT-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1E279D</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>Loopback</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="Jumper_2_Open-Jumper" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1E653E</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>DSK26</value>
+      <footprint>Diode_SMD:D_SOD-323_HandSoldering</footprint>
+      <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <libsource lib="Xbee-rescue" part="1N4007-Diode" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1AA185</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="R-Device" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C89E422</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>Raspberry</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="Conn_01x05-Connector_Generic" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8A34C2</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>Entrada</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="Screw_Terminal_01x02-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1ACBCC</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N7002</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D728B89</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>AP2300</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="2N7002" description="0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D75E2ED</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>SANYOU_SRD_Form_C</value>
+      <footprint>Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</footprint>
+      <datasheet>http://www.sanyourelay.ca/public/products/pdf/SRD.pdf</datasheet>
+      <libsource lib="Relay" part="SANYOU_SRD_Form_C" description="Sanyo SRD relay, Single Pole Miniature Power Relay,"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D884156</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>Estado Batería</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="Jumper_2_Open-Jumper" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C1B13A4</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>Batería</value>
+      <footprint>TerminalBlock:TerminalBlock_bornier-2_P5.08mm</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="Screw_Terminal_01x02-Connector" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5D8D1F40</tstamp>
+    </comp>
+    <comp ref="H1">
+      <value>PoteCarga</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DAA1303</tstamp>
+    </comp>
+    <comp ref="H2">
+      <value>PoteEstado</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Mechanical" part="MountingHole_Pad" description="Mounting Hole with connection"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5DAA430F</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="CP1-Device" description=""/>
+      <sheetpath names="/Regulador-Cargador/" tstamps="/5DFE9EC8/"/>
+      <tstamp>5E01787E</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Xbee-rescue" part="CP1-Device" description=""/>
+      <sheetpath names="/Regulador-Cargador/" tstamps="/5DFE9EC8/"/>
+      <tstamp>5E017884</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>AZ1117-3.3</value>
+      <footprint>Package_TO_SOT_SMD:SOT-223-3_TabPin2</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/AZ1117.pdf</datasheet>
+      <libsource lib="Regulator_Linear" part="AZ1117-3.3" description="1A 20V Fixed LDO Linear Regulator, 3.3V, SOT-89/SOT-223/TO-220/TO-252/TO-263"/>
+      <sheetpath names="/Regulador-Cargador/" tstamps="/5DFE9EC8/"/>
+      <tstamp>5E01789B</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>DSU24</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky_ALT" description="Schottky diode, filled shape"/>
+      <sheetpath names="/Regulador-Cargador/" tstamps="/5DFE9EC8/"/>
+      <tstamp>5D952A15</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>DSK26</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_ALT" description="Diode, filled shape"/>
+      <sheetpath names="/Regulador-Cargador/" tstamps="/5DFE9EC8/"/>
+      <tstamp>5D952EF8</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10k</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Regulador-Cargador/" tstamps="/5DFE9EC8/"/>
+      <tstamp>5D9533C4</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>DSU24</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="D_Schottky_ALT" description="Schottky diode, filled shape"/>
+      <sheetpath names="/Regulador-Cargador/" tstamps="/5DFE9EC8/"/>
+      <tstamp>5D9575F1</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/Regulador-Cargador/" tstamps="/5DFE9EC8/"/>
+      <tstamp>5D95A68D</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>DMP3099L-7</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf</datasheet>
+      <libsource lib="Transistor_FET" part="DMP3013SFV" description="-12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8"/>
+      <sheetpath names="/Regulador-Cargador/" tstamps="/5DFE9EC8/"/>
+      <tstamp>5DAEF0EF</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="D_ALT">
+      <description>Diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky_ALT">
+      <description>Schottky diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_ALT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole_Pad">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="AZ1117-1.2">
+      <aliases>
+        <alias>AZ1117-1.5</alias>
+        <alias>AZ1117-1.8</alias>
+        <alias>AZ1117-2.5</alias>
+        <alias>AZ1117-2.85</alias>
+        <alias>AZ1117-3.3</alias>
+        <alias>AZ1117-5.0</alias>
+      </aliases>
+      <description>1A 20V Fixed LDO Linear Regulator, 1.2V, SOT-89/SOT-223/TO-220/TO-252/TO-263</description>
+      <docs>https://www.diodes.com/assets/Datasheets/AZ1117.pdf</docs>
+      <footprints>
+        <fp>SOT?223*</fp>
+        <fp>SOT?89*</fp>
+        <fp>TO?220*</fp>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">AZ1117-1.2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Relay" part="SANYOU_SRD_Form_C">
+      <description>Sanyo SRD relay, Single Pole Miniature Power Relay,</description>
+      <docs>http://www.sanyourelay.ca/public/products/pdf/SRD.pdf</docs>
+      <footprints>
+        <fp>Relay*SPDT*SANYOU*SRD*Series*Form*C*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">SANYOU_SRD_Form_C</field>
+        <field name="Footprint">Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="BSS138">
+      <aliases>
+        <alias>2N7002</alias>
+        <alias>2N7002E</alias>
+        <alias>2N7002H</alias>
+        <alias>2N7002K</alias>
+        <alias>BS170F</alias>
+        <alias>BS870</alias>
+        <alias>BSN20</alias>
+        <alias>BSS123</alias>
+        <alias>BSS127S</alias>
+        <alias>DMG2302U</alias>
+        <alias>DMG3402L</alias>
+        <alias>DMG3404L</alias>
+        <alias>DMG3406L</alias>
+        <alias>DMG3414U</alias>
+        <alias>DMG3418L</alias>
+        <alias>DMN10H220L</alias>
+        <alias>DMN10H700S</alias>
+        <alias>DMN13H750S</alias>
+        <alias>DMN2041L</alias>
+        <alias>DMN2050L</alias>
+        <alias>DMN2056U</alias>
+        <alias>DMN2058U</alias>
+        <alias>DMN2075U</alias>
+        <alias>DMN2230U</alias>
+        <alias>DMN24H11DS</alias>
+        <alias>DMN24H3D5L</alias>
+        <alias>DMN3042L</alias>
+        <alias>DMN3051L</alias>
+        <alias>DMN30H4D0L</alias>
+        <alias>DMN3110S</alias>
+        <alias>DMN3150L</alias>
+        <alias>DMN3300U</alias>
+        <alias>DMN3404L</alias>
+        <alias>DMN6075S</alias>
+        <alias>DMN6140L</alias>
+        <alias>DMN67D7L</alias>
+        <alias>DMN67D8L</alias>
+        <alias>MMBF170</alias>
+        <alias>VN10LF</alias>
+        <alias>ZVN3306F</alias>
+        <alias>ZVN3310F</alias>
+        <alias>ZVN3320F</alias>
+        <alias>ZVN4106F</alias>
+        <alias>ZXM61N02F</alias>
+        <alias>ZXM61N03F</alias>
+        <alias>ZXMN10A07F</alias>
+        <alias>ZXMN2A01F</alias>
+        <alias>ZXMN2A14F</alias>
+        <alias>ZXMN2B01F</alias>
+        <alias>ZXMN2B14FH</alias>
+        <alias>ZXMN2F30FH</alias>
+        <alias>ZXMN2F34FH</alias>
+        <alias>ZXMN3A01F</alias>
+        <alias>ZXMN3A14F</alias>
+        <alias>ZXMN3B01F</alias>
+        <alias>ZXMN3B14F</alias>
+        <alias>ZXMN3F30FH</alias>
+        <alias>ZXMN6A07F</alias>
+        <alias>IRLML2060</alias>
+      </aliases>
+      <description>50V Vds, 0.22A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>https://www.fairchildsemi.com/datasheets/BS/BSS138.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BSS138</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="DMP3013SFV">
+      <description>-12A Id, -30V Vds, P-Channel Power MOSFET, 9.5mOhm Ron, 33.7nC Qg (typ), PowerDI3333-8</description>
+      <docs>https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf</docs>
+      <footprints>
+        <fp>Diodes*PowerDI3333*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">DMP3013SFV</field>
+        <field name="Footprint">Package_SON:Diodes_PowerDI3333-8</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+        <pin num="4" name="G" type="passive"/>
+        <pin num="5" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xbee-rescue" part="1N4007-Diode">
+      <footprints>
+        <fp>D*DO?41*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4007-Diode</field>
+        <field name="Footprint">Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xbee-rescue" part="CP1-Device">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xbee-rescue" part="Conn_01x05-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x05-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xbee-rescue" part="Conn_01x10-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x10-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xbee-rescue" part="Conn_02x05_Counter_Clockwise-Connector_Generic">
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Counter_Clockwise-Connector_Generic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xbee-rescue" part="D_Zener_ALT-Device">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener_ALT-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xbee-rescue" part="Jumper_2_Open-Jumper">
+      <footprints>
+        <fp>Jumper*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_2_Open-Jumper</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xbee-rescue" part="Jumper_3_Open-Jumper">
+      <footprints>
+        <fp>Jumper*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_3_Open-Jumper</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="input"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xbee-rescue" part="LED_ALT-Device">
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_ALT-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xbee-rescue" part="LM358-Amplifier_Operational">
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TO*99*</fp>
+        <fp>OnSemi*Micro8*</fp>
+        <fp>TSSOP*3x3mm*P0.65mm*</fp>
+        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
+        <fp>LFCSP*2x2mm*P0.5mm*</fp>
+        <fp>*SIP*</fp>
+        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM358-Amplifier_Operational</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xbee-rescue" part="R-Device">
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xbee-rescue" part="R_POT-Device">
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_POT-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xbee-rescue" part="SW_Push_Dual-Switch">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push_Dual-Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xbee-rescue" part="Screw_Terminal_01x02-Connector">
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x02-Connector</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Xbee-rescue" part="XBP24CZ7PITB003-XBP24CZ7PITB003">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XBP24CZ7PITB003-XBP24CZ7PITB003</field>
+        <field name="Footprint">DIP2200W51P200L3294H279Q20P</field>
+        <field name="Datasheet">Digi International</field>
+        <field name="Field4">Module Digi International</field>
+        <field name="Field5">None</field>
+        <field name="Field6">XBP24CZ7PITB003</field>
+        <field name="Field7">Programmable Xbee-Pro Zb S2c Th _Pcb Antenna_</field>
+        <field name="Field8">Unavailable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_in"/>
+        <pin num="2" name="DOUT/DIO13" type="BiDi"/>
+        <pin num="3" name="DIN/!CONFIG!/DIO14" type="BiDi"/>
+        <pin num="4" name="DIO12/SPI_MISO" type="BiDi"/>
+        <pin num="5" name="~RESET~" type="input"/>
+        <pin num="6" name="DIO10/PWM0/RSSI_PWM" type="BiDi"/>
+        <pin num="7" name="DIO11/PWM1" type="BiDi"/>
+        <pin num="9" name="~DTR!/SLEEP_RQ/DIO8~" type="BiDi"/>
+        <pin num="10" name="GND" type="power_in"/>
+        <pin num="11" name="DIO4/SPI_MOSI" type="BiDi"/>
+        <pin num="12" name="~CTS!/DIO7~" type="BiDi"/>
+        <pin num="13" name="ON_!SLEEP!/DIO9" type="BiDi"/>
+        <pin num="14" name="VREF" type="power_in"/>
+        <pin num="15" name="ASSOCIATE/DIO5" type="output"/>
+        <pin num="16" name="~RTS!/DIO6~" type="BiDi"/>
+        <pin num="17" name="AD3/DIO3/SPI_!SSEL" type="BiDi"/>
+        <pin num="18" name="AD2/DIO2/SPI_CLK" type="BiDi"/>
+        <pin num="19" name="AD1/DIO1/SPI_!ATTN" type="BiDi"/>
+        <pin num="20" name="AD0/DIO0/CB" type="BiDi"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/usr/share/kicad/library/Mechanical.lib</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/library/Regulator_Linear.lib</uri>
+    </library>
+    <library logical="Relay">
+      <uri>/usr/share/kicad/library/Relay.lib</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>/usr/share/kicad/library/Transistor_FET.lib</uri>
+    </library>
+    <library logical="Xbee-rescue">
+      <uri>/media/profesores2/Datos/Matias Pereyra/Github/ZFireAlarm/Hardware/Xbee/Xbee-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/TXD">
+      <node ref="JP2" pin="1"/>
+      <node ref="J5" pin="7"/>
+      <node ref="U2" pin="3"/>
+      <node ref="J3" pin="3"/>
+      <node ref="J2" pin="4"/>
+    </net>
+    <net code="2" name="/RXD">
+      <node ref="J5" pin="4"/>
+      <node ref="U2" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J2" pin="3"/>
+      <node ref="JP2" pin="2"/>
+    </net>
+    <net code="3" name="/Salida-Rele">
+      <node ref="J7" pin="2"/>
+      <node ref="K1" pin="1"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D7-Pad2)">
+      <node ref="D7" pin="2"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="5" name="Net-(K1-Pad4)">
+      <node ref="K1" pin="4"/>
+    </net>
+    <net code="6" name="/DIO2-Entrada">
+      <node ref="JP3" pin="3"/>
+      <node ref="J6" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="7" name="Net-(J4-Pad7)">
+      <node ref="J4" pin="7"/>
+    </net>
+    <net code="8" name="Net-(J3-Pad8)">
+      <node ref="J3" pin="8"/>
+    </net>
+    <net code="9" name="+3V3">
+      <node ref="J5" pin="10"/>
+      <node ref="R6" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="10" name="/CTS">
+      <node ref="J5" pin="3"/>
+      <node ref="U2" pin="12"/>
+      <node ref="J4" pin="9"/>
+    </net>
+    <net code="11" name="/DIO9">
+      <node ref="J4" pin="8"/>
+      <node ref="U2" pin="13"/>
+    </net>
+    <net code="12" name="/Assoc.">
+      <node ref="J4" pin="6"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="13" name="/RTS">
+      <node ref="J5" pin="8"/>
+      <node ref="J4" pin="5"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="14" name="/DIO3">
+      <node ref="U2" pin="17"/>
+      <node ref="J4" pin="4"/>
+    </net>
+    <net code="15" name="+12V">
+      <node ref="D8" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U1" pin="3"/>
+      <node ref="RV2" pin="1"/>
+      <node ref="R11" pin="2"/>
+      <node ref="K1" pin="5"/>
+      <node ref="K1" pin="3"/>
+      <node ref="R7" pin="2"/>
+      <node ref="RV1" pin="1"/>
+      <node ref="D9" pin="1"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="16" name="Net-(Q2-Pad1)">
+      <node ref="Q2" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="17" name="/DIO2-Salida">
+      <node ref="R8" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="JP3" pin="1"/>
+    </net>
+    <net code="18" name="/Bobina">
+      <node ref="K1" pin="2"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="19" name="/CargaBatería">
+      <node ref="U3" pin="1"/>
+      <node ref="Q3" pin="4"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="20" name="/Bat+">
+      <node ref="J8" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="21" name="/Vin+">
+      <node ref="Q3" pin="3"/>
+      <node ref="J1" pin="2"/>
+      <node ref="Q3" pin="2"/>
+      <node ref="Q3" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="22" name="GNDREF">
+      <node ref="C2" pin="2"/>
+      <node ref="J3" pin="10"/>
+      <node ref="D7" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="D1" pin="1"/>
+      <node ref="RV1" pin="3"/>
+      <node ref="D6" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="J6" pin="1"/>
+      <node ref="J2" pin="5"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="Q2" pin="2"/>
+      <node ref="RV2" pin="3"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U2" pin="10"/>
+      <node ref="J7" pin="1"/>
+      <node ref="U3" pin="4"/>
+      <node ref="D3" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="J8" pin="1"/>
+      <node ref="SW1" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="SW2" pin="1"/>
+      <node ref="SW2" pin="3"/>
+      <node ref="J5" pin="5"/>
+    </net>
+    <net code="23" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="24" name="Net-(J5-Pad1)">
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="25" name="Net-(D1-Pad2)">
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="26" name="Net-(J5-Pad6)">
+      <node ref="J5" pin="6"/>
+    </net>
+    <net code="27" name="/DTR-DIO8">
+      <node ref="U2" pin="9"/>
+      <node ref="J3" pin="9"/>
+      <node ref="J5" pin="9"/>
+    </net>
+    <net code="28" name="/DSR-DIO12">
+      <node ref="J5" pin="2"/>
+      <node ref="J3" pin="4"/>
+      <node ref="U2" pin="4"/>
+    </net>
+    <net code="29" name="Net-(U2-Pad14)">
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="30" name="/DIO1">
+      <node ref="J4" pin="2"/>
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="31" name="/Bat-DIO4">
+      <node ref="Q1" pin="3"/>
+      <node ref="JP4" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="32" name="Net-(D6-Pad2)">
+      <node ref="R12" pin="1"/>
+      <node ref="D6" pin="2"/>
+    </net>
+    <net code="33" name="Net-(D5-Pad2)">
+      <node ref="R11" pin="1"/>
+      <node ref="D5" pin="2"/>
+    </net>
+    <net code="34" name="/DIO2">
+      <node ref="U2" pin="18"/>
+      <node ref="JP3" pin="2"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="35" name="/DIO4">
+      <node ref="U2" pin="11"/>
+      <node ref="JP4" pin="1"/>
+      <node ref="J4" pin="10"/>
+    </net>
+    <net code="36" name="/Comm.">
+      <node ref="SW2" pin="2"/>
+      <node ref="SW2" pin="4"/>
+      <node ref="J4" pin="1"/>
+      <node ref="U2" pin="20"/>
+    </net>
+    <net code="37" name="/DIO11">
+      <node ref="U2" pin="7"/>
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="38" name="/RSSI">
+      <node ref="U2" pin="6"/>
+      <node ref="JP1" pin="3"/>
+      <node ref="J3" pin="6"/>
+    </net>
+    <net code="39" name="/RST">
+      <node ref="J3" pin="5"/>
+      <node ref="SW1" pin="2"/>
+      <node ref="SW1" pin="4"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="40" name="/EstadoBatería">
+      <node ref="U3" pin="7"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="41" name="Net-(H1-Pad1)">
+      <node ref="U3" pin="3"/>
+      <node ref="RV1" pin="2"/>
+      <node ref="H1" pin="1"/>
+    </net>
+    <net code="42" name="Net-(D3-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="U3" pin="5"/>
+      <node ref="U3" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="43" name="/LED-Assoc-RSSI">
+      <node ref="R1" pin="2"/>
+      <node ref="JP1" pin="2"/>
+    </net>
+    <net code="44" name="Net-(H2-Pad1)">
+      <node ref="RV2" pin="2"/>
+      <node ref="H2" pin="1"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="45" name="Net-(D2-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="46" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2"/>
+      <node ref="Q3" pin="5"/>
+    </net>
+  </nets>
+</export>

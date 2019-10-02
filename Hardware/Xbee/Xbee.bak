@@ -397,17 +397,6 @@ F 3 "~" H 8350 1650 50  0001 C CNN
 	1    8350 1650
 	-1   0    0    1   
 $EndComp
-$Comp
-L Xbee-rescue:+12V-power #PWR025
-U 1 1 5C1A9FAF
-P 8350 1500
-F 0 "#PWR025" H 8350 1350 50  0001 C CNN
-F 1 "+12V" H 8365 1673 50  0000 C CNN
-F 2 "" H 8350 1500 50  0001 C CNN
-F 3 "" H 8350 1500 50  0001 C CNN
-	1    8350 1500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9150 1450 9150 1800
 $Comp
@@ -428,17 +417,6 @@ Connection ~ 9150 1800
 Wire Wire Line
 	9150 1800 9150 2050
 $Comp
-L Xbee-rescue:+12V-power #PWR028
-U 1 1 5C1AB703
-P 8750 1100
-F 0 "#PWR028" H 8750 950 50  0001 C CNN
-F 1 "+12V" H 8765 1273 50  0000 C CNN
-F 2 "" H 8750 1100 50  0001 C CNN
-F 3 "" H 8750 1100 50  0001 C CNN
-	1    8750 1100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Xbee-rescue:GNDREF-power #PWR029
 U 1 1 5C1AB747
 P 8750 1400
@@ -447,17 +425,6 @@ F 1 "GNDREF" H 8755 1227 50  0000 C CNN
 F 2 "" H 8750 1400 50  0001 C CNN
 F 3 "" H 8750 1400 50  0001 C CNN
 	1    8750 1400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Xbee-rescue:+12V-power #PWR030
-U 1 1 5C1AB784
-P 8750 2100
-F 0 "#PWR030" H 8750 1950 50  0001 C CNN
-F 1 "+12V" H 8765 2273 50  0000 C CNN
-F 2 "" H 8750 2100 50  0001 C CNN
-F 3 "" H 8750 2100 50  0001 C CNN
-	1    8750 2100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -893,7 +860,7 @@ L Xbee-rescue:1N4007-Diode D4
 U 1 1 5C1AA185
 P 9150 4750
 F 0 "D4" V 9104 4829 50  0000 L CNN
-F 1 "1N4007WS" V 9150 4300 50  0000 L CNN
+F 1 "DSK26" V 9150 4300 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9150 4575 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 9150 4750 50  0001 C CNN
 	1    9150 4750
@@ -2414,7 +2381,7 @@ U 1 1 5DAA1303
 P 9050 1000
 F 0 "H1" H 9150 1049 50  0000 L CNN
 F 1 "PoteCarga" H 8850 950 50  0000 L CNN
-F 2 "" H 9050 1000 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 9050 1000 50  0001 C CNN
 F 3 "~" H 9050 1000 50  0001 C CNN
 	1    9050 1000
 	1    0    0    -1  
@@ -2430,7 +2397,7 @@ U 1 1 5DAA430F
 P 9050 2450
 F 0 "H2" H 9150 2499 50  0000 L CNN
 F 1 "PoteEstado" H 8850 2400 50  0000 L CNN
-F 2 "" H 9050 2450 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad" H 9050 2450 50  0001 C CNN
 F 3 "~" H 9050 2450 50  0001 C CNN
 	1    9050 2450
 	-1   0    0    1   
@@ -2440,4 +2407,14 @@ Wire Wire Line
 Connection ~ 9050 2250
 Wire Wire Line
 	9050 2250 9150 2250
+Text Label 8350 1500 2    50   ~ 0
+Bat+
+Text Label 8750 1000 1    50   ~ 0
+Bat+
+Wire Wire Line
+	8750 1000 8750 1100
+Text Label 8750 2000 1    50   ~ 0
+Bat+
+Wire Wire Line
+	8750 2000 8750 2100
 $EndSCHEMATC
