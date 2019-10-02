@@ -41,7 +41,7 @@ AR Path="/5E01787E" Ref="C?"  Part="1"
 AR Path="/5DFE9EC8/5E01787E" Ref="C1"  Part="1" 
 F 0 "C1" H 1665 1896 50  0000 L CNN
 F 1 "1u" H 1665 1805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 1550 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1550 1850 50  0001 C CNN
 F 3 "~" H 1550 1850 50  0001 C CNN
 	1    1550 1850
 	1    0    0    -1  
@@ -54,7 +54,7 @@ AR Path="/5E017884" Ref="C?"  Part="1"
 AR Path="/5DFE9EC8/5E017884" Ref="C2"  Part="1" 
 F 0 "C2" H 3015 1896 50  0000 L CNN
 F 1 "1u" H 3015 1805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2900 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2900 1850 50  0001 C CNN
 F 3 "~" H 2900 1850 50  0001 C CNN
 	1    2900 1850
 	1    0    0    -1  
@@ -1361,17 +1361,6 @@ Wire Wire Line
 	5250 1750 5450 1750
 Text Notes 4650 1050 0    79   ~ 0
 Cargador de batería
-$Comp
-L Transistor_FET:DMP3013SFV Q3
-U 1 1 5DAEF0EF
-P 4950 1550
-F 0 "Q3" V 5293 1550 50  0000 C CNN
-F 1 "DMP3099L-7" V 5202 1550 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 5150 1475 50  0001 L CIN
-F 3 "https://www.diodes.com/assets/Datasheets/DMP3013SFV.pdf" V 4950 1550 50  0001 L CNN
-	1    4950 1550
-	0    -1   -1   0   
-$EndComp
 Wire Notes Line
 	3850 850  6400 850 
 Wire Notes Line
@@ -1380,4 +1369,15 @@ Wire Notes Line
 	3850 2500 3850 850 
 Wire Notes Line
 	3850 2500 6400 2500
+$Comp
+L Device:Q_PMOS_GSD Q3
+U 1 1 5D9BD611
+P 4950 1550
+F 0 "Q3" V 5293 1550 50  0000 C CNN
+F 1 "DMP3099L-7" V 5202 1550 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5150 1650 50  0001 C CNN
+F 3 "~" H 4950 1550 50  0001 C CNN
+	1    4950 1550
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
