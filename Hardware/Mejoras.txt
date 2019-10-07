@@ -1,0 +1,4 @@
+-Controlar pull-up
+-Fusible en sirena de salida
+-Verificar potwencia de regulador 3.3 (disipador SMD en placa)
+-Mounting hole
