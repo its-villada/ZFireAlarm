@@ -41,7 +41,7 @@ AR Path="/5E01787E" Ref="C?"  Part="1"
 AR Path="/5DFE9EC8/5E01787E" Ref="C1"  Part="1" 
 F 0 "C1" H 1665 1896 50  0000 L CNN
 F 1 "1u" H 1665 1805 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 1550 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1550 1850 50  0001 C CNN
 F 3 "~" H 1550 1850 50  0001 C CNN
 	1    1550 1850
 	1    0    0    -1  
@@ -54,7 +54,7 @@ AR Path="/5E017884" Ref="C?"  Part="1"
 AR Path="/5DFE9EC8/5E017884" Ref="C2"  Part="1" 
 F 0 "C2" H 3015 1896 50  0000 L CNN
 F 1 "1u" H 3015 1805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 2900 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2900 1850 50  0001 C CNN
 F 3 "~" H 2900 1850 50  0001 C CNN
 	1    2900 1850
 	1    0    0    -1  
