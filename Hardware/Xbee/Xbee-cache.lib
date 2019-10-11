@@ -560,11 +560,11 @@ X 3 3 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Xbee-rescue_SW_Push_Dual-Switch
+# Xbee-rescue_SW_Push_Dual-Switch-Xbee-rescue
 #
-DEF Xbee-rescue_SW_Push_Dual-Switch SW 0 40 Y N 1 F N
+DEF Xbee-rescue_SW_Push_Dual-Switch-Xbee-rescue SW 0 40 Y N 1 F N
 F0 "SW" 50 100 50 H V L CNN
-F1 "Xbee-rescue_SW_Push_Dual-Switch" 0 -270 50 H V C CNN
+F1 "Xbee-rescue_SW_Push_Dual-Switch-Xbee-rescue" 0 -270 50 H V C CNN
 F2 "" 0 200 50 H I C CNN
 F3 "" 0 200 50 H I C CNN
 DRAW

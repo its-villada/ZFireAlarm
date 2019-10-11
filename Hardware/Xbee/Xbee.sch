@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Xbee-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -64,7 +64,7 @@ F 3 "" H 4300 4200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xbee-rescue:SW_Push_Dual-Switch SW1
+L Xbee-rescue:SW_Push_Dual-Switch-Xbee-rescue SW1
 U 1 1 5C05513C
 P 1150 6700
 F 0 "SW1" H 1150 6985 50  0000 C CNN
@@ -75,7 +75,7 @@ F 3 "" H 1150 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xbee-rescue:SW_Push_Dual-Switch SW2
+L Xbee-rescue:SW_Push_Dual-Switch-Xbee-rescue SW2
 U 1 1 5C0551E7
 P 2200 6700
 F 0 "SW2" H 2200 6985 50  0000 C CNN
