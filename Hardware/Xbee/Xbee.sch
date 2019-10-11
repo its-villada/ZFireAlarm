@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Xbee-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -861,7 +861,7 @@ U 1 1 5C1AA185
 P 9150 4750
 F 0 "D4" V 9104 4829 50  0000 L CNN
 F 1 "DSK26" V 9150 4300 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-323_HandSoldering" H 9150 4575 50  0001 C CNN
+F 2 "Diode_SMD:D_SOD-123F" H 9150 4575 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 9150 4750 50  0001 C CNN
 	1    9150 4750
 	0    1    1    0   
