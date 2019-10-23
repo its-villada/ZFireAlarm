@@ -2,3 +2,6 @@
 -Fusible en sirena de salida
 -Verificar potwencia de regulador 3.3 (disipador SMD en placa)
 -Mounting hole
+-- Aumentar espacio entre xbee y zocalo
+- Tamaño de compoennetes? Soldado?  (1206
+- Recortar esquinas
