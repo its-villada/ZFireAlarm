@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Xbee-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -373,6 +373,10 @@ F 0 "D3" V 8400 1750 50  0000 L CNN
 F 1 "Zener 5V" V 8500 1600 50  0000 L CNN
 F 2 "Diode_SMD:D_SOT-23_ANK" H 8350 1950 50  0001 C CNN
 F 3 "~" H 8350 1950 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/es/nexperia-usa-inc/PLVA650A215/1727-5167-2-ND/1163688" H 8350 1950 50  0001 C CNN "Link Proveedor 1"
+F 5 "SOT-23" H 8350 1950 50  0001 C CNN "Package"
+F 6 "1727-5167-2-ND " H 8350 1950 50  0001 C CNN "Código Proveedor 1"
+F 7 "PLVA650A,215" H 8350 1950 50  0001 C CNN "Nombre Fabricante"
 	1    8350 1950
 	0    1    1    0   
 $EndComp
@@ -589,17 +593,6 @@ F 3 "" H 7450 5100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	7450 5100 7450 5000
-$Comp
-L Xbee-rescue:R-Device R5
-U 1 1 5C1B535E
-P 7000 4800
-F 0 "R5" V 6793 4800 50  0000 C CNN
-F 1 "330" V 6884 4800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6930 4800 50  0001 C CNN
-F 3 "~" H 7000 4800 50  0001 C CNN
-	1    7000 4800
-	0    -1   1    0   
-$EndComp
 Text Label 9950 2150 0    50   ~ 0
 EstadoBatería
 Text Label 6750 4800 3    50   ~ 0
@@ -674,17 +667,6 @@ RTS
 Text Label 1750 1250 0    50   ~ 0
 Comm.
 $Comp
-L Xbee-rescue:R-Device R10
-U 1 1 5C1C2E7B
-P 2950 1450
-F 0 "R10" H 2750 1550 50  0000 L CNN
-F 1 "10k" H 2750 1450 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2880 1450 50  0001 C CNN
-F 3 "~" H 2950 1450 50  0001 C CNN
-	1    2950 1450
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Xbee-rescue:+3.3V-power #PWR032
 U 1 1 5C1C3018
 P 2950 1300
@@ -726,17 +708,6 @@ F 6 "https://www.digikey.com/product-detail/en/w-rth-elektronik/61300311121/732-
 F 7 "2.54mm T/H" H 4850 2350 50  0001 C CNN "Package"
 	1    4850 2350
 	0    -1   -1   0   
-$EndComp
-$Comp
-L Xbee-rescue:R-Device R9
-U 1 1 5C1D0264
-P 9500 5600
-F 0 "R9" V 9293 5600 50  0000 C CNN
-F 1 "330" V 9384 5600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9430 5600 50  0001 C CNN
-F 3 "~" H 9500 5600 50  0001 C CNN
-	1    9500 5600
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	9350 5350 9350 5600
@@ -916,17 +887,6 @@ Wire Wire Line
 Wire Wire Line
 	9150 5050 9350 5050
 $Comp
-L Xbee-rescue:R-Device R8
-U 1 1 5C89E422
-P 9350 5850
-F 0 "R8" H 9420 5896 50  0000 L CNN
-F 1 "10k" H 9420 5805 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 9280 5850 50  0001 C CNN
-F 3 "~" H 9350 5850 50  0001 C CNN
-	1    9350 5850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Xbee-rescue:GNDREF-power #PWR027
 U 1 1 5C89E4B4
 P 9350 6000
@@ -1055,6 +1015,10 @@ F 0 "Q1" H 7556 4846 50  0000 L CNN
 F 1 "2N7002" H 7556 4755 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 7550 4725 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 7350 4800 50  0001 L CNN
+F 4 "2N7002" H 7350 4800 50  0001 C CNN "Nombre Fabricante"
+F 5 "2N7002NCT-ND" H 7350 4800 50  0001 C CNN "Código Proveedor 1"
+F 6 "SOT-23" H 7350 4800 50  0001 C CNN "Package"
+F 7 "https://www.digikey.com/product-detail/es/on-semiconductor/2N7002/2N7002NCT-ND/244664" H 7350 4800 50  0001 C CNN "Link Proveedor 1"
 	1    7350 4800
 	1    0    0    -1  
 $EndComp
@@ -1066,6 +1030,10 @@ F 0 "Q2" H 10056 5646 50  0000 L CNN
 F 1 "AP2300" H 10056 5555 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 10050 5525 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 9850 5600 50  0001 L CNN
+F 4 "https://www.digikey.com/product-detail/es/on-semiconductor/2N7002/2N7002NCT-ND/244664" H 9850 5600 50  0001 C CNN "Link Proveedor 1"
+F 5 "SOT-23" H 9850 5600 50  0001 C CNN "Package"
+F 6 "2N7002" H 9850 5600 50  0001 C CNN "Nombre Fabricante"
+F 7 "2N7002NCT-ND" H 9850 5600 50  0001 C CNN "Código Proveedor 1"
 	1    9850 5600
 	1    0    0    -1  
 $EndComp
@@ -1088,11 +1056,6 @@ Wire Wire Line
 	3250 1650 3150 1650
 Wire Wire Line
 	3150 1650 3150 1600
-Connection ~ 2950 1600
-Wire Wire Line
-	2950 1600 2850 1600
-Wire Wire Line
-	3150 1600 2950 1600
 Connection ~ 3150 1600
 Wire Wire Line
 	3150 1600 3150 1550
@@ -2481,4 +2444,69 @@ Wire Notes Line
 	650  4300 3450 4300
 Wire Wire Line
 	2850 4800 2850 4950
+$Comp
+L Xbee-rescue:R-Device R5
+U 1 1 5DB489D4
+P 7000 4800
+F 0 "R5" V 6793 4800 50  0000 C CNN
+F 1 "330" V 6884 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 6930 4800 50  0001 C CNN
+F 3 "~" H 7000 4800 50  0001 C CNN
+F 4 "ERJ-8RQJR33V" H 7000 4800 50  0001 C CNN "Nombre Fabricante"
+F 5 "P.33PCT-ND" H 7000 4800 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-8RQJR33V/P.33PCT-ND/250371" H 7000 4800 50  0001 C CNN "Link Proveedor 1"
+F 7 "1206" H 7000 4800 50  0001 C CNN "Package"
+	1    7000 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Xbee-rescue:R-Device R9
+U 1 1 5DB4C324
+P 9500 5600
+F 0 "R9" V 9400 5600 50  0000 C CNN
+F 1 "330" V 9600 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9430 5600 50  0001 C CNN
+F 3 "~" H 9500 5600 50  0001 C CNN
+F 4 "ERJ-8RQJR33V" H 9500 5600 50  0001 C CNN "Nombre Fabricante"
+F 5 "P.33PCT-ND" H 9500 5600 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-8RQJR33V/P.33PCT-ND/250371" H 9500 5600 50  0001 C CNN "Link Proveedor 1"
+F 7 "1206" H 9500 5600 50  0001 C CNN "Package"
+	1    9500 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Xbee-rescue:R-Device R8
+U 1 1 5DB4D079
+P 9350 5850
+F 0 "R8" H 9420 5896 50  0000 L CNN
+F 1 "10k" H 9420 5805 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 9280 5850 50  0001 C CNN
+F 3 "~" H 9350 5850 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 9350 5850 50  0001 C CNN "Nombre Fabricante"
+F 5 "311-10KERCT-ND" H 9350 5850 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156" H 9350 5850 50  0001 C CNN "Link Proveedor 1"
+F 7 "1206" H 9350 5850 50  0001 C CNN "Package"
+	1    9350 5850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Xbee-rescue:R-Device R10
+U 1 1 5DB4DBE9
+P 2950 1450
+F 0 "R10" H 2750 1500 50  0000 L CNN
+F 1 "10k" H 2750 1400 50  0000 L CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" V 2880 1450 50  0001 C CNN
+F 3 "~" H 2950 1450 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 2950 1450 50  0001 C CNN "Nombre Fabricante"
+F 5 "311-10KERCT-ND" H 2950 1450 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156" H 2950 1450 50  0001 C CNN "Link Proveedor 1"
+F 7 "1206" H 2950 1450 50  0001 C CNN "Package"
+	1    2950 1450
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 1600 2950 1600
+Connection ~ 2950 1600
+Wire Wire Line
+	2950 1600 3150 1600
 $EndSCHEMATC

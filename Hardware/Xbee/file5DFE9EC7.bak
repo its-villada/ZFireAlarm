@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Xbee-cache
-EELAYER 30 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1264,9 +1264,13 @@ L Device:D_Schottky_ALT D2
 U 1 1 5D952A15
 P 4600 1600
 F 0 "D2" H 4600 1816 50  0000 C CNN
-F 1 "DSU24" H 4600 1725 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123F" H 4600 1600 50  0001 C CNN
+F 1 "APD240" H 4600 1725 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4600 1600 50  0001 C CNN
 F 3 "~" H 4600 1600 50  0001 C CNN
+F 4 "APD240KDTR-G1" H 4600 1600 50  0001 C CNN "Nombre Fabricante"
+F 5 "APD240KDTR-G1DITR-ND" H 4600 1600 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/es/diodes-incorporated/APD240KDTR-G1/APD240KDTR-G1DITR-ND/5721492" H 4600 1600 50  0001 C CNN "Link Proveedor 1"
+F 7 "SOD-123" H 4600 1600 50  0001 C CNN "Package"
 	1    4600 1600
 	0    -1   -1   0   
 $EndComp
@@ -1289,6 +1293,10 @@ F 0 "R3" H 5520 1646 50  0000 L CNN
 F 1 "10k" H 5520 1555 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 5380 1600 50  0001 C CNN
 F 3 "~" H 5450 1600 50  0001 C CNN
+F 4 "RC1206JR-0710KL" H 5450 1600 50  0001 C CNN "Nombre Fabricante"
+F 5 "1206" H 5450 1600 50  0001 C CNN "Package"
+F 6 "311-10KERCT-ND" H 5450 1600 50  0001 C CNN "Código Proveedor 1"
+F 7 "https://www.digikey.com/product-detail/en/yageo/RC1206JR-0710KL/311-10KERCT-ND/732156" H 5450 1600 50  0001 C CNN "Link Proveedor 1"
 	1    5450 1600
 	1    0    0    -1  
 $EndComp
@@ -1304,9 +1312,13 @@ L Device:D_Schottky_ALT D9
 U 1 1 5D9575F1
 P 5850 1850
 F 0 "D9" V 5896 1771 50  0000 R CNN
-F 1 "DSU24" V 5805 1771 50  0000 R CNN
+F 1 "APD240" V 5805 1771 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 5850 1850 50  0001 C CNN
 F 3 "~" H 5850 1850 50  0001 C CNN
+F 4 " 	APD240KDTR-G1" H 5850 1850 50  0001 C CNN "Nombre Fabricante"
+F 5 "APD240KDTR-G1DITR-ND" H 5850 1850 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/es/diodes-incorporated/APD240KDTR-G1/APD240KDTR-G1DITR-ND/5721492" H 5850 1850 50  0001 C CNN "Link Proveedor 1"
+F 7 "SOD-123" H 5850 1850 50  0001 C CNN "Package"
 	1    5850 1850
 	0    -1   -1   0   
 $EndComp
@@ -1331,6 +1343,10 @@ F 0 "R2" V 4393 2000 50  0000 C CNN
 F 1 "100" V 4484 2000 50  0000 C CNN
 F 2 "Resistor_SMD:R_1218_3246Metric_Pad1.22x4.75mm_HandSolder" V 4530 2000 50  0001 C CNN
 F 3 "~" H 4600 2000 50  0001 C CNN
+F 4 "https://www.digikey.com/product-detail/es/yageo/RC1206FR-07100RL/311-100FRTR-ND/728491" H 4600 2000 50  0001 C CNN "Link Proveedor 1"
+F 5 "1206" H 4600 2000 50  0001 C CNN "Package"
+F 6 "311-100FRTR-ND " H 4600 2000 50  0001 C CNN "Código Proveedor 1"
+F 7 "RC1206FR-07100RL" H 4600 2000 50  0001 C CNN "Nombre Fabricante"
 	1    4600 2000
 	1    0    0    -1  
 $EndComp
@@ -1374,6 +1390,10 @@ F 0 "Q3" V 5293 1550 50  0000 C CNN
 F 1 "DMP3099L-7" V 5202 1550 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5150 1650 50  0001 C CNN
 F 3 "~" H 4950 1550 50  0001 C CNN
+F 4 "DMP3099L-7" H 4950 1550 50  0001 C CNN "Nombre Fabricante"
+F 5 "DMP3099L-7DITR-ND" H 4950 1550 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/en/diodes-incorporated/DMP3099L-7/DMP3099L-7DITR-ND/4471075" H 4950 1550 50  0001 C CNN "Link Proveedor 1"
+F 7 "SOT-23" H 4950 1550 50  0001 C CNN "Package"
 	1    4950 1550
 	0    -1   -1   0   
 $EndComp
