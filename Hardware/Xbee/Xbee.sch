@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Xbee-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,22 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Xbee-rescue:XBP24CZ7PITB003-XBP24CZ7PITB003 U2
-U 1 1 5C053126
-P 5000 6350
-F 0 "U2" H 5000 7417 50  0000 C CNN
-F 1 "Xbee" H 5000 7326 50  0000 C CNN
-F 2 "XBP24CZ7PITB003:DIP2200W51P200L3294H279Q20P" H 5000 6350 50  0001 L BNN
-F 3 "Digi International" H 5000 6350 50  0001 L BNN
-F 4 "Module Digi International" H 5000 6350 50  0001 L BNN "Field4"
-F 5 "None" H 5000 6350 50  0001 L BNN "Field5"
-F 6 "XBP24CZ7PITB003" H 5000 6350 50  0001 L BNN "Field6"
-F 7 "Programmable Xbee-Pro Zb S2c Th _Pcb Antenna_" H 5000 6350 50  0001 L BNN "Field7"
-F 8 "Unavailable" H 5000 6350 50  0001 L BNN "Field8"
-	1    5000 6350
-	1    0    0    -1  
-$EndComp
 $Comp
 L Xbee-rescue:GNDREF-power #PWR03
 U 1 1 5C05451D
@@ -49,6 +33,12 @@ F 0 "J1" H 2700 2750 50  0000 C CNN
 F 1 "Alimentación" H 2700 2850 50  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2650 3100 50  0001 C CNN
 F 3 "~" H 2650 3100 50  0001 C CNN
+F 4 "TBP01R2-508-02BE" H 2650 3100 50  0001 C CNN "Nombre Fabricante"
+F 5 "102-6422-ND" H 2650 3100 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/en/cui-devices/TBP01R2-508-02BE/102-6422-ND/10238399" H 2650 3100 50  0001 C CNN "Link Proveedor 1"
+F 7 "5.08mm T/H" H 2650 3100 50  0001 C CNN "Package"
+F 8 "102-6390-ND" H 2650 3100 50  0001 C CNN "Código Proveedor 2"
+F 9 "https://www.digikey.com/product-detail/en/cui-devices/TBP01P1-508-02BE/102-6390-ND/10238367" H 2650 3100 50  0001 C CNN "Link Proveedor 2"
 	1    2650 3100
 	-1   0    0    1   
 $EndComp
@@ -71,6 +61,10 @@ F 0 "SW1" H 1150 6985 50  0000 C CNN
 F 1 "Reset" H 1150 6894 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 1150 6900 50  0001 C CNN
 F 3 "" H 1150 6900 50  0001 C CNN
+F 4 "B3F-1002" H 1150 6700 50  0001 C CNN "Nombre Fabricante"
+F 5 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3F-1002/SW401-ND/11881" H 1150 6700 50  0001 C CNN "Link Proveedor 1"
+F 6 "SPST-NO" H 1150 6700 50  0001 C CNN "Package"
+F 7 "SW401-ND" H 1150 6700 50  0001 C CNN "Código Proveedor 1"
 	1    1150 6700
 	1    0    0    -1  
 $EndComp
@@ -82,6 +76,10 @@ F 0 "SW2" H 2200 6985 50  0000 C CNN
 F 1 "Comm." H 2200 6894 50  0000 C CNN
 F 2 "Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx" H 2200 6900 50  0001 C CNN
 F 3 "" H 2200 6900 50  0001 C CNN
+F 4 "B3F-1002" H 2200 6700 50  0001 C CNN "Nombre Fabricante"
+F 5 "SW401-ND" H 2200 6700 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3F-1002/SW401-ND/11881" H 2200 6700 50  0001 C CNN "Link Proveedor 1"
+F 7 "SPST-NO" H 2200 6700 50  0001 C CNN "Package"
 	1    2200 6700
 	1    0    0    -1  
 $EndComp
@@ -201,17 +199,6 @@ F 3 "" H 1500 5650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Xbee-rescue:Conn_02x05_Counter_Clockwise-Connector_Generic J5
-U 1 1 5C1A76BB
-P 1350 2850
-F 0 "J5" H 1400 3267 50  0000 C CNN
-F 1 "Programación" H 1400 3176 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Horizontal" H 1350 2850 50  0001 C CNN
-F 3 "~" H 1350 2850 50  0001 C CNN
-	1    1350 2850
-	1    0    0    -1  
-$EndComp
-$Comp
 L Xbee-rescue:GNDREF-power #PWR017
 U 1 1 5C1A7A13
 P 1000 3050
@@ -303,6 +290,12 @@ F 0 "J7" H 2730 2392 50  0000 L CNN
 F 1 "Salida" H 2730 2301 50  0000 L CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2650 2400 50  0001 C CNN
 F 3 "~" H 2650 2400 50  0001 C CNN
+F 4 "TBP01R2-508-02BE" H 2650 2400 50  0001 C CNN "Nombre Fabricante"
+F 5 "102-6422-ND" H 2650 2400 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/en/cui-devices/TBP01R2-508-02BE/102-6422-ND/10238399" H 2650 2400 50  0001 C CNN "Link Proveedor 1"
+F 7 "5.08mm T/H" H 2650 2400 50  0001 C CNN "Package"
+F 8 "102-6390-ND" H 2650 2400 50  0001 C CNN "Código Proveedor 2"
+F 9 "https://www.digikey.com/product-detail/en/cui-devices/TBP01P1-508-02BE/102-6390-ND/10238367" H 2650 2400 50  0001 C CNN "Link Proveedor 2"
 	1    2650 2400
 	-1   0    0    1   
 $EndComp
@@ -373,10 +366,10 @@ F 0 "D3" V 8400 1750 50  0000 L CNN
 F 1 "Zener 5V" V 8500 1600 50  0000 L CNN
 F 2 "Diode_SMD:D_SOT-23_ANK" H 8350 1950 50  0001 C CNN
 F 3 "~" H 8350 1950 50  0001 C CNN
-F 4 "https://www.digikey.com/product-detail/es/nexperia-usa-inc/PLVA650A215/1727-5167-2-ND/1163688" H 8350 1950 50  0001 C CNN "Link Proveedor 1"
+F 4 "https://www.digikey.com/product-detail/en/on-semiconductor/BZX84C5V1LT3G/BZX84C5V1LT3GOSCT-ND/3462252" H 8350 1950 50  0001 C CNN "Link Proveedor 1"
 F 5 "SOT-23" H 8350 1950 50  0001 C CNN "Package"
-F 6 "1727-5167-2-ND " H 8350 1950 50  0001 C CNN "Código Proveedor 1"
-F 7 "PLVA650A,215" H 8350 1950 50  0001 C CNN "Nombre Fabricante"
+F 6 "BZX84C5V1LT3GOSCT-ND" H 8350 1950 50  0001 C CNN "Código Proveedor 1"
+F 7 "BZX84C5V1LT3G" H 8350 1950 50  0001 C CNN "Nombre Fabricante"
 	1    8350 1950
 	0    1    1    0   
 $EndComp
@@ -607,6 +600,10 @@ F 0 "J3" H 1200 2300 50  0000 L CNN
 F 1 "Pines 1" H 1100 2200 50  0000 L CNN
 F 2 "Connector_PinSocket_2.00mm:PinSocket_1x10_P2.00mm_Vertical" H 1350 1650 50  0001 C CNN
 F 3 "~" H 1350 1650 50  0001 C CNN
+F 4 "831-87-010-10-001101" H 1350 1650 50  0001 C CNN "Nombre Fabricante"
+F 5 "1212-1314-ND" H 1350 1650 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/en/831-87-010-10-001101/1212-1314-ND/3757564" H 1350 1650 50  0001 C CNN "Link Proveedor 1"
+F 7 "2mm T/H" H 1350 1650 50  0001 C CNN "Package"
 	1    1350 1650
 	1    0    0    -1  
 $EndComp
@@ -618,6 +615,10 @@ F 0 "J4" H 1470 2267 50  0000 C CNN
 F 1 "Pines 2" H 1470 2176 50  0000 C CNN
 F 2 "Connector_PinSocket_2.00mm:PinSocket_1x10_P2.00mm_Vertical" H 1550 1650 50  0001 C CNN
 F 3 "~" H 1550 1650 50  0001 C CNN
+F 4 "831-87-010-10-001101" H 1550 1650 50  0001 C CNN "Nombre Fabricante"
+F 5 "1212-1314-ND" H 1550 1650 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/en/831-87-010-10-001101/1212-1314-ND/3757564" H 1550 1650 50  0001 C CNN "Link Proveedor 1"
+F 7 "2mm T/H" H 1550 1650 50  0001 C CNN "Package"
 	1    1550 1650
 	-1   0    0    -1  
 $EndComp
@@ -871,9 +872,13 @@ L Xbee-rescue:1N4007-Diode D4
 U 1 1 5C1AA185
 P 9150 4750
 F 0 "D4" V 9104 4829 50  0000 L CNN
-F 1 "DSK26" V 9150 4300 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123F" H 9150 4575 50  0001 C CNN
+F 1 "MURA220" V 9150 4300 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA_Handsoldering" H 9150 4575 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 9150 4750 50  0001 C CNN
+F 4 "MURA220T3G" H 9150 4750 50  0001 C CNN "Nombre Fabricante"
+F 5 "MURA220T3GOSCT-ND" H 9150 4750 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/en/on-semiconductor/MURA220T3G/MURA220T3GOSCT-ND/921212" H 9150 4750 50  0001 C CNN "Link Proveedor 1"
+F 7 "SMA" H 9150 4750 50  0001 C CNN "Package"
 	1    9150 4750
 	0    1    1    0   
 $EndComp
@@ -906,17 +911,6 @@ Text Label 9150 5600 2    50   ~ 0
 Rasp.Out
 Text Label 3250 1550 0    50   ~ 0
 Rasp.In
-$Comp
-L Xbee-rescue:Conn_01x05-Connector_Generic J2
-U 1 1 5C8A34C2
-P 1850 3500
-F 0 "J2" H 1930 3542 50  0000 L CNN
-F 1 "Raspberry" H 1930 3451 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1850 3500 50  0001 C CNN
-F 3 "~" H 1850 3500 50  0001 C CNN
-	1    1850 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1550 3750 1550 3700
 Wire Wire Line
@@ -996,6 +990,12 @@ F 0 "J6" H 2650 1400 50  0000 L CNN
 F 1 "Entrada" H 2550 1500 50  0000 L CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2650 1700 50  0001 C CNN
 F 3 "~" H 2650 1700 50  0001 C CNN
+F 4 "TBP01R2-508-02BE" H 2650 1700 50  0001 C CNN "Nombre Fabricante"
+F 5 "102-6422-ND" H 2650 1700 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/en/cui-devices/TBP01R2-508-02BE/102-6422-ND/10238399" H 2650 1700 50  0001 C CNN "Link Proveedor 1"
+F 7 "5.08mm T/H" H 2650 1700 50  0001 C CNN "Package"
+F 8 "102-6390-ND" H 2650 1700 50  0001 C CNN "Código Proveedor 2"
+F 9 "https://www.digikey.com/product-detail/en/cui-devices/TBP01P1-508-02BE/102-6390-ND/10238367" H 2650 1700 50  0001 C CNN "Link Proveedor 2"
 	1    2650 1700
 	-1   0    0    1   
 $EndComp
@@ -1035,17 +1035,6 @@ F 5 "SOT-23" H 9850 5600 50  0001 C CNN "Package"
 F 6 "2N7002" H 9850 5600 50  0001 C CNN "Nombre Fabricante"
 F 7 "2N7002NCT-ND" H 9850 5600 50  0001 C CNN "Código Proveedor 1"
 	1    9850 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Relay:SANYOU_SRD_Form_C K1
-U 1 1 5D884156
-P 9800 4750
-F 0 "K1" H 10230 4796 50  0000 L CNN
-F 1 "SANYOU_SRD_Form_C" H 10230 4705 50  0000 L CNN
-F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 10250 4700 50  0001 L CNN
-F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 9800 4750 50  0001 C CNN
-	1    9800 4750
 	1    0    0    -1  
 $EndComp
 Text Notes 1450 850  0    79   ~ 0
@@ -2334,6 +2323,12 @@ F 0 "J8" H 2700 3400 50  0000 C CNN
 F 1 "Batería" H 2700 3500 50  0000 C CNN
 F 2 "TerminalBlock:TerminalBlock_bornier-2_P5.08mm" H 2650 3750 50  0001 C CNN
 F 3 "~" H 2650 3750 50  0001 C CNN
+F 4 "TBP01R2-508-02BE" H 2650 3750 50  0001 C CNN "Nombre Fabricante"
+F 5 "102-6422-ND" H 2650 3750 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/en/cui-devices/TBP01R2-508-02BE/102-6422-ND/10238399" H 2650 3750 50  0001 C CNN "Link Proveedor 1"
+F 7 "5.08mm T/H" H 2650 3750 50  0001 C CNN "Package"
+F 8 "102-6390-ND" H 2650 3750 50  0001 C CNN "Código Proveedor 2"
+F 9 "https://www.digikey.com/product-detail/en/cui-devices/TBP01P1-508-02BE/102-6390-ND/10238367" H 2650 3750 50  0001 C CNN "Link Proveedor 2"
 	1    2650 3750
 	-1   0    0    1   
 $EndComp
@@ -2509,4 +2504,115 @@ Wire Wire Line
 Connection ~ 2950 1600
 Wire Wire Line
 	2950 1600 3150 1600
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5DB7455D
+P 2250 7150
+F 0 "H3" H 2350 7196 50  0000 L CNN
+F 1 "MountingHole" H 2350 7105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2250 7150 50  0001 C CNN
+F 3 "~" H 2250 7150 50  0001 C CNN
+	1    2250 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5DB748A8
+P 2700 7150
+F 0 "H5" H 2800 7196 50  0000 L CNN
+F 1 "MountingHole" H 2800 7105 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2700 7150 50  0001 C CNN
+F 3 "~" H 2700 7150 50  0001 C CNN
+	1    2700 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5DB74A31
+P 2250 7450
+F 0 "H4" H 2350 7496 50  0000 L CNN
+F 1 "MountingHole" H 2350 7405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2250 7450 50  0001 C CNN
+F 3 "~" H 2250 7450 50  0001 C CNN
+	1    2250 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5DB74BE8
+P 2700 7450
+F 0 "H6" H 2800 7496 50  0000 L CNN
+F 1 "MountingHole" H 2800 7405 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2700 7450 50  0001 C CNN
+F 3 "~" H 2700 7450 50  0001 C CNN
+	1    2700 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xbee-rescue:Conn_02x05_Counter_Clockwise-Connector_Generic J5
+U 1 1 5C1A76BB
+P 1350 2850
+F 0 "J5" H 1400 3267 50  0000 C CNN
+F 1 "Programación" H 1400 3176 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Horizontal" H 1350 2850 50  0001 C CNN
+F 3 "~" H 1350 2850 50  0001 C CNN
+F 4 "PPTC052LJBN-RC" H 1350 2850 50  0001 C CNN "Nombre Fabricante"
+F 5 "S5519-ND" H 1350 2850 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPTC052LJBN-RC/S5519-ND/775977" H 1350 2850 50  0001 C CNN "Link Proveedor 1"
+F 7 "2.54mm T/H" H 1350 2850 50  0001 C CNN "Package"
+	1    1350 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xbee-rescue:Conn_01x05-Connector_Generic J2
+U 1 1 5C8A34C2
+P 1850 3500
+F 0 "J2" H 1930 3542 50  0000 L CNN
+F 1 "Raspberry" H 1930 3451 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 1850 3500 50  0001 C CNN
+F 3 "~" H 1850 3500 50  0001 C CNN
+F 4 "61300511121" H 1850 3500 50  0001 C CNN "Nombre Fabricante"
+F 5 "732-5318-ND" H 1850 3500 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/en/w-rth-elektronik/61300511121/732-5318-ND/4846831" H 1850 3500 50  0001 C CNN "Link Proveedor 1"
+F 7 "2.54mm T/H" H 1850 3500 50  0001 C CNN "Package"
+	1    1850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Relay:SANYOU_SRD_Form_C K1
+U 1 1 5D884156
+P 9800 4750
+F 0 "K1" H 10230 4796 50  0000 L CNN
+F 1 "ORWH-SH-112D1F" H 10230 4705 50  0000 L CNN
+F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 10250 4700 50  0001 L CNN
+F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 9800 4750 50  0001 C CNN
+F 4 "ORWH-SH-112D1F,000" H 9800 4750 50  0001 C CNN "Nombre Fabricante"
+F 5 "PB2029-ND" H 9800 4750 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/en/te-connectivity-potter-brumfield-relays/ORWH-SH-112D1F000/PB2029-ND/4924991" H 9800 4750 50  0001 C CNN "Link Proveedor 1"
+F 7 " SPDT (1 Form C) " H 9800 4750 50  0001 C CNN "Package"
+	1    9800 4750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Xbee-rescue:XBP24CZ7PITB003-XBP24CZ7PITB003 U2
+U 1 1 5C053126
+P 5000 6350
+F 0 "U2" H 5000 7417 50  0000 C CNN
+F 1 "Xbee" H 5000 7326 50  0000 C CNN
+F 2 "XBP24CZ7PITB003:DIP2200W51P200L3294H279Q20P" H 5000 6350 50  0001 L BNN
+F 3 "Digi International" H 5000 6350 50  0001 L BNN
+F 4 "Module Digi International" H 5000 6350 50  0001 L BNN "Field4"
+F 5 "None" H 5000 6350 50  0001 L BNN "Field5"
+F 6 "XBP24CZ7PITB003" H 5000 6350 50  0001 L BNN "Field6"
+F 7 "Programmable Xbee-Pro Zb S2c Th _Pcb Antenna_" H 5000 6350 50  0001 L BNN "Field7"
+F 8 "Unavailable" H 5000 6350 50  0001 L BNN "Field8"
+F 9 "831-87-010-10-001101" H 5000 6350 50  0001 C CNN "Nombre Fabricante"
+F 10 "1212-1314-ND" H 5000 6350 50  0001 C CNN "Código Proveedor 1"
+F 11 "https://www.digikey.com/product-detail/en/831-87-010-10-001101/1212-1314-ND/3757564" H 5000 6350 50  0001 C CNN "Link Proveedor 1"
+F 12 "2mm T/H" H 5000 6350 50  0001 C CNN "Package"
+F 13 "1212-1314-ND" H 5000 6350 50  0001 C CNN "Código Proveedor 2"
+F 14 "https://www.digikey.com/product-detail/en/831-87-010-10-001101/1212-1314-ND/3757564" H 5000 6350 50  0001 C CNN "Link Proveedor 2"
+	1    5000 6350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

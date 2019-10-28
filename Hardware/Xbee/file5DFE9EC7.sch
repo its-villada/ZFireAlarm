@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Xbee-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -41,8 +41,12 @@ AR Path="/5E01787E" Ref="C?"  Part="1"
 AR Path="/5DFE9EC8/5E01787E" Ref="C1"  Part="1" 
 F 0 "C1" H 1665 1896 50  0000 L CNN
 F 1 "1u" H 1665 1805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1550 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 1550 1850 50  0001 C CNN
 F 3 "~" H 1550 1850 50  0001 C CNN
+F 4 "C1206C105M4RACTU" H 1550 1850 50  0001 C CNN "Nombre Fabricante"
+F 5 "399-8150-1-ND" H 1550 1850 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/en/kemet/C1206C105M4RACTU/399-8150-1-ND/3471873" H 1550 1850 50  0001 C CNN "Link Proveedor 1"
+F 7 "1206" H 1550 1850 50  0001 C CNN "Package"
 	1    1550 1850
 	1    0    0    -1  
 $EndComp
@@ -54,8 +58,12 @@ AR Path="/5E017884" Ref="C?"  Part="1"
 AR Path="/5DFE9EC8/5E017884" Ref="C2"  Part="1" 
 F 0 "C2" H 3015 1896 50  0000 L CNN
 F 1 "1u" H 3015 1805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2900 1850 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2900 1850 50  0001 C CNN
 F 3 "~" H 2900 1850 50  0001 C CNN
+F 4 "C1206C105M4RACTU" H 2900 1850 50  0001 C CNN "Nombre Fabricante"
+F 5 "399-8150-1-ND" H 2900 1850 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/en/kemet/C1206C105M4RACTU/399-8150-1-ND/3471873" H 2900 1850 50  0001 C CNN "Link Proveedor 1"
+F 7 "1206" H 2900 1850 50  0001 C CNN "Package"
 	1    2900 1850
 	1    0    0    -1  
 $EndComp
@@ -104,6 +112,10 @@ F 0 "U1" H 2250 1792 50  0000 C CNN
 F 1 "AZ1117-3.3" H 2250 1701 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 2250 1800 50  0001 C CIN
 F 3 "https://www.diodes.com/assets/Datasheets/AZ1117.pdf" H 2250 1550 50  0001 C CNN
+F 4 "Diodes Incorporated" H 2250 1550 50  0001 C CNN "Nombre Fabricante"
+F 5 "AZ1117EH-3.3TRG1DICT-ND" H 2250 1550 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/en/diodes-incorporated/AZ1117EH-3.3TRG1/AZ1117EH-3.3TRG1DICT-ND/5001336" H 2250 1550 50  0001 C CNN "Link Proveedor 1"
+F 7 "SOT-223" H 2250 1550 50  0001 C CNN "Package"
 	1    2250 1550
 	1    0    0    -1  
 $EndComp
@@ -1268,8 +1280,8 @@ F 1 "APD240" H 4600 1725 50  0000 C CNN
 F 2 "Diode_SMD:D_SOD-123" H 4600 1600 50  0001 C CNN
 F 3 "~" H 4600 1600 50  0001 C CNN
 F 4 "APD240KDTR-G1" H 4600 1600 50  0001 C CNN "Nombre Fabricante"
-F 5 "APD240KDTR-G1DITR-ND" H 4600 1600 50  0001 C CNN "Código Proveedor 1"
-F 6 "https://www.digikey.com/product-detail/es/diodes-incorporated/APD240KDTR-G1/APD240KDTR-G1DITR-ND/5721492" H 4600 1600 50  0001 C CNN "Link Proveedor 1"
+F 5 "APD240KDTR-G1DICT-ND" H 4600 1600 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/es/diodes-incorporated/APD240KDTR-G1/APD240KDTR-G1DICT-ND/7708824" H 4600 1600 50  0001 C CNN "Link Proveedor 1"
 F 7 "SOD-123" H 4600 1600 50  0001 C CNN "Package"
 	1    4600 1600
 	0    -1   -1   0   
@@ -1279,9 +1291,13 @@ L Device:D_ALT D8
 U 1 1 5D952EF8
 P 5650 2350
 F 0 "D8" H 5650 2134 50  0000 C CNN
-F 1 "DSK26" H 5650 2225 50  0000 C CNN
-F 2 "Diode_SMD:D_SOD-123F" H 5650 2350 50  0001 C CNN
+F 1 "MURA220" H 5650 2225 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" H 5650 2350 50  0001 C CNN
 F 3 "~" H 5650 2350 50  0001 C CNN
+F 4 "MURA220T3G" H 5650 2350 50  0001 C CNN "Nombre Fabricante"
+F 5 "MURA220T3GOSCT-ND" H 5650 2350 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/en/on-semiconductor/MURA220T3G/MURA220T3GOSCT-ND/921212" H 5650 2350 50  0001 C CNN "Link Proveedor 1"
+F 7 "SMA" H 5650 2350 50  0001 C CNN "Package"
 	1    5650 2350
 	-1   0    0    1   
 $EndComp
@@ -1316,8 +1332,8 @@ F 1 "APD240" V 5805 1771 50  0000 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 5850 1850 50  0001 C CNN
 F 3 "~" H 5850 1850 50  0001 C CNN
 F 4 " 	APD240KDTR-G1" H 5850 1850 50  0001 C CNN "Nombre Fabricante"
-F 5 "APD240KDTR-G1DITR-ND" H 5850 1850 50  0001 C CNN "Código Proveedor 1"
-F 6 "https://www.digikey.com/product-detail/es/diodes-incorporated/APD240KDTR-G1/APD240KDTR-G1DITR-ND/5721492" H 5850 1850 50  0001 C CNN "Link Proveedor 1"
+F 5 "APD240KDTR-G1DICT-ND" H 5850 1850 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/es/diodes-incorporated/APD240KDTR-G1/APD240KDTR-G1DICT-ND/7708824" H 5850 1850 50  0001 C CNN "Link Proveedor 1"
 F 7 "SOD-123" H 5850 1850 50  0001 C CNN "Package"
 	1    5850 1850
 	0    -1   -1   0   
@@ -1391,8 +1407,8 @@ F 1 "DMP3099L-7" V 5202 1550 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5150 1650 50  0001 C CNN
 F 3 "~" H 4950 1550 50  0001 C CNN
 F 4 "DMP3099L-7" H 4950 1550 50  0001 C CNN "Nombre Fabricante"
-F 5 "DMP3099L-7DITR-ND" H 4950 1550 50  0001 C CNN "Código Proveedor 1"
-F 6 "https://www.digikey.com/product-detail/en/diodes-incorporated/DMP3099L-7/DMP3099L-7DITR-ND/4471075" H 4950 1550 50  0001 C CNN "Link Proveedor 1"
+F 5 "DMP3099L-7DICT-ND" H 4950 1550 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/en/diodes-incorporated/DMP3099L-7/DMP3099L-7DICT-ND/5218217" H 4950 1550 50  0001 C CNN "Link Proveedor 1"
 F 7 "SOT-23" H 4950 1550 50  0001 C CNN "Package"
 	1    4950 1550
 	0    -1   -1   0   
@@ -1405,6 +1421,10 @@ F 0 "F1" H 6100 2450 50  0000 C CNN
 F 1 "Fuse_Small" H 6100 2550 50  0000 C CNN
 F 2 "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 6100 2350 50  0001 C CNN
 F 3 "~" H 6100 2350 50  0001 C CNN
+F 4 "C1F 2" H 6100 2350 50  0001 C CNN "Nombre Fabricante"
+F 5 "507-1881-1-ND" H 6100 2350 50  0001 C CNN "Código Proveedor 1"
+F 6 "https://www.digikey.com/product-detail/en/bel-fuse-inc/C1F-2/507-1881-1-ND/4968159" H 6100 2350 50  0001 C CNN "Link Proveedor 1"
+F 7 "1206" H 6100 2350 50  0001 C CNN "Package"
 	1    6100 2350
 	1    0    0    -1  
 $EndComp
