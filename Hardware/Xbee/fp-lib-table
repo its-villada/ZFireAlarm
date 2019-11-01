@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name XBP24CZ7PITB003)(type Legacy)(uri "/media/profesores2/Datos/Matias Pereyra/Github/ZFireAlarm/Hardware/Modulo_Xbee_pro_XBP24CZ7PITB003/XBP24CZ7PITB003.mod")(options "")(descr ""))
+  (lib (name its)(type KiCad)(uri /home/profesores2/Imágenes/its.pretty)(options "")(descr ""))
 )

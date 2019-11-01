@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/media/profesores2/Datos/Matias Pereyra/Github/branch/ZFireAlarm/Hardware/Xbee/Xbee.sch</source>
-    <date>lun 28 oct 2019 10:51:21 -03</date>
+    <source>/media/profesores2/Datos/Matias Pereyra/Github/ZFireAlarm/Hardware/Xbee/Xbee.sch</source>
+    <date>vie 01 nov 2019 15:23:24 -03</date>
     <tool>Eeschema 5.1.4-e60b266~84~ubuntu18.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -52,8 +52,8 @@
       <value>Reset</value>
       <footprint>Button_Switch_THT:SW_TH_Tactile_Omron_B3F-10xx</footprint>
       <fields>
-        <field name="Código Proveedor 1">https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3F-1002/SW401-ND/11881</field>
-        <field name="Link Proveedor 1">SW401-ND</field>
+        <field name="Código Proveedor 1">SW401-ND</field>
+        <field name="Link Proveedor 1">https://www.digikey.com/product-detail/en/omron-electronics-inc-emc-div/B3F-1002/SW401-ND/11881</field>
         <field name="Nombre Fabricante">B3F-1002</field>
         <field name="Package">SPST-NO</field>
       </fields>
@@ -1257,7 +1257,7 @@
       <uri>/usr/share/kicad/library/Transistor_FET.lib</uri>
     </library>
     <library logical="Xbee-rescue">
-      <uri>/media/profesores2/Datos/Matias Pereyra/Github/branch/ZFireAlarm/Hardware/Xbee/Xbee-rescue.lib</uri>
+      <uri>/media/profesores2/Datos/Matias Pereyra/Github/ZFireAlarm/Hardware/Xbee/Xbee-rescue.lib</uri>
     </library>
   </libraries>
   <nets>
